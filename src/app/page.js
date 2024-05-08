@@ -12,6 +12,7 @@ export default function Home() {
           alt="cloakroom"
           text="步入式衣帽间方案"
           buttonText="即刻探索"
+          page='/closet'
         />
         <ImageItem
           src="/image/cupboard2.png"
