@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import ImageItem from '../components/ImageItem'
 
@@ -8,7 +7,7 @@ export default function Home() {
       <Navbar />
       <div className="container">
         <ImageItem
-          src="/image/cloakroom.png"
+          src="/image/closet.png"
           alt="cloakroom"
           text="步入式衣帽间方案"
           buttonText="即刻探索"
@@ -27,13 +26,13 @@ export default function Home() {
           buttonText="即刻探索"
         />
         <ImageItem
-          src="/image/cupboard.png"
+          src="/image/more_case.png"
           alt="moreProduct"
           text="更多案例鉴赏"
           buttonText="点击查看"
         />
       </div>
-      <div>footer</div>
+      <footer>footer</footer>
     </main>
   )
 }

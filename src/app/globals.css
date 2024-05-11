@@ -101,3 +101,8 @@ body{
   flex-direction: column;
   align-items: center;
 }
+
+footer{
+  height: 200px;
+  background-color: #212121
+}
