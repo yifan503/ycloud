@@ -102,7 +102,14 @@ body{
   align-items: center;
 }
 
-footer{
-  height: 200px;
-  background-color: #212121
+/* LinkStyles.css */
+.custom-link {
+  color: aliceblue; /* 链接的文本颜色 */
+  text-decoration: none; /* 移除下划线 */
+  /* 添加更多样式 */
+}
+
+.custom-link:hover {
+  text-decoration: underline; /* 鼠标悬停时添加下划线 */
+  /* 添加更多悬停状态的样式 */
 }

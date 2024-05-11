@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
     return (
         <nav className="navBar" id="navbar">
@@ -17,14 +19,14 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="center">
-                <div className="title-text">MAX CREATE</div>
+                <div className="title-text">Y NUVOLA</div>
                 <div className="label-text">上海亿云高级全屋定制</div>
             </div>
             <div className="right-content">
-                <div>品牌介绍</div>
-                <div>致电我们</div>
-                <div>案例欣赏</div>
-                <div>线下展厅</div>
+                <Link href='/about' className='custom-link'>品牌介绍</Link>
+                <Link href='/about' className='custom-link'>致电我们</Link>
+                <Link href='/about' className='custom-link'>案例欣赏</Link>
+                <Link href='/about' className='custom-link'>线下展厅</Link>
             </div>
         </nav>
     )
