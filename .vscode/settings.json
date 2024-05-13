@@ -1,7 +1,7 @@
 { "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "eslint.autoFixOnSave": true
+        "source.fixAll.eslint": "explicit",
+        "eslint.autoFixOnSave": "explicit"
     },
     "editor.fontFamily": "consolas,'Courier New', monospace",
     

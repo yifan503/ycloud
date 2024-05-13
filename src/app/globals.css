@@ -1,71 +1,25 @@
-body{
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
   margin: 0;
   color: aliceblue;
 }
 
-.title-text{
-  font-size:2rem;
-}
-
-.label-text{
-  font-size: 1.2rem;
-}
-
-.navBar{
-  padding: 1rem 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top:0;
-  width:100%;
-  z-index: 1000;
-  /* 渐变 */
-  transition: background-color 0.5s ease;
-}
-
-.navBar:hover{
-  background-color: #212121;
-}
-
-.navBar .center{
-  /* margin: 0 auto; */
-  flex: 1;
-  text-align: center;
-}
-
-.navBar .left-content {
-  display: flex;
-  position: absolute;
-  left: 0;
-  align-items: center;
-  gap: 2rem;
-  margin-left: 2.5rem;
-}
-
-.navBar .right-content {
-  position: absolute;
-  right: 0;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-right: 2.5rem;
-}
-
-
-.container{
+.container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
 }
 
-.item{
+.item {
   flex: 1;
   position: relative;
 }
 
-.item img{
+.item img {
   display: block;
   width: 100%;
   height: 100%;
@@ -73,14 +27,14 @@ body{
   margin: 0;
 }
 
-.image-text{
+.image-text {
   padding-bottom: 1.2rem;
   font-size: 1.5rem;
 }
 
-.image-button{
+.image-button {
   /* 模糊 */
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   /* 按钮样式 */
   border: 1.5px solid aliceblue;
@@ -91,7 +45,7 @@ body{
   font-size: 1.2rem;
 }
 
-.overlay-item{
+.overlay-item {
   position: absolute;
   bottom: 3.5rem;
   left: 50%;
@@ -100,16 +54,4 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-/* LinkStyles.css */
-.custom-link {
-  color: aliceblue; /* 链接的文本颜色 */
-  text-decoration: none; /* 移除下划线 */
-  /* 添加更多样式 */
-}
-
-.custom-link:hover {
-  text-decoration: underline; /* 鼠标悬停时添加下划线 */
-  /* 添加更多悬停状态的样式 */
 }

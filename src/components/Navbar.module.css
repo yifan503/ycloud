@@ -1,0 +1,66 @@
+.navBar {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* 渐变 */
+    transition: background-color 0.5s ease;
+}
+
+.navBar:hover {
+    background-color: #212121;
+}
+
+.center {
+    /* margin: 0 auto; */
+    flex: 1;
+    text-align: center;
+}
+
+.left_content {
+    display: flex;
+    position: absolute;
+    left: 0;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2.5rem;
+}
+
+.right_content {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2.5rem;
+}
+
+.title_text {
+    font-size: 2rem;
+}
+
+.label_text {
+    font-size: 1.2rem;
+}
+
+.left_text {
+    color: aliceblue;
+}
+
+.custom_link {
+    color: aliceblue;
+    /* 链接的文本颜色 */
+    text-decoration: none;
+    /* 移除下划线 */
+    /* 添加更多样式 */
+}
+
+.custom_link:hover {
+    text-decoration: underline;
+    /* 鼠标悬停时添加下划线 */
+    /* 添加更多悬停状态的样式 */
+}
