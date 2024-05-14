@@ -4,9 +4,9 @@
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
     width: 100%;
 }
 
@@ -17,5 +17,11 @@
 }
 
 .container {
-    padding: 0 calc(10vw);
+    padding: 150px calc(10vw) 0 calc(10vw);
+}
+
+.rowContent {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
 }
