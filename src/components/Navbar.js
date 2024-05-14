@@ -30,9 +30,9 @@ export default function Navbar() {
             </div>
             <div className={styles.right_content}>
                 <Link href='/about' className={styles.custom_link}>公司介绍</Link>
-                <Link href='/about' className={styles.custom_link}>致电我们</Link>
-                <Link href='/about' className={styles.custom_link}>案例欣赏</Link>
-                <Link href='/about' className={styles.custom_link}>线下展厅</Link>
+                <Link href='/contact_info' className={styles.custom_link}>致电我们</Link>
+                <Link href='/cases' className={styles.custom_link}>案例欣赏</Link>
+                <Link href='/showroom' className={styles.custom_link}>线下展厅</Link>
             </div>
         </nav >
     )
