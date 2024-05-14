@@ -34,7 +34,7 @@ export default function Navbar() {
                         <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>Y NUVOLA</Link>
                     </div>
                     <div className={styles.label_text}>
-                        <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>上海亿云高级全屋定制</Link>
+                        <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>上海亿云高端全屋定制</Link>
                     </div>
 
                 </div>
