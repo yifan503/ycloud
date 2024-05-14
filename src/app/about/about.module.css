@@ -15,3 +15,7 @@
     height: 150px;
     text-align: center;
 }
+
+.container {
+    padding: 0 calc(10vw);
+}

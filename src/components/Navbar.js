@@ -29,7 +29,7 @@ export default function Navbar() {
 
             </div>
             <div className={styles.right_content}>
-                <Link href='/about' className={styles.custom_link}>品牌介绍</Link>
+                <Link href='/about' className={styles.custom_link}>公司介绍</Link>
                 <Link href='/about' className={styles.custom_link}>致电我们</Link>
                 <Link href='/about' className={styles.custom_link}>案例欣赏</Link>
                 <Link href='/about' className={styles.custom_link}>线下展厅</Link>
