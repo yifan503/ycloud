@@ -1,11 +1,8 @@
-import Navbar from '../components/Navbar'
 import ImageItem from '../components/ImageItem'
-import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
+    <>
       <div className="container">
         <ImageItem
           src="/image/closet.png"
@@ -33,7 +30,6 @@ export default function Home() {
           buttonText="点击查看"
         />
       </div>
-      <Footer />
-    </main>
+    </>
   )
 }

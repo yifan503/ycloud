@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.container {
+    padding: 150px calc(10vw) 0 calc(10vw);
+}
+
+.rowContent {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
+}
