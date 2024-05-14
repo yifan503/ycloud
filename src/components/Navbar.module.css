@@ -64,3 +64,23 @@
     /* 鼠标悬停时添加下划线 */
     /* 添加更多悬停状态的样式 */
 }
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20rem;
+    z-index: 2000;
+    background-color: green;
+}
+
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1500;
+    background-color: aqua;
+}
