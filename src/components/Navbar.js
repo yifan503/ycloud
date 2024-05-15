@@ -2,13 +2,24 @@
 
 import Link from "next/link";
 import styles from './Navbar.module.css'
-import { useState } from "react";
+import { useRef, useState } from "react";
+
+const MENUITEM = [
+    'menuItem',
+    'menu Item',
+    'MenuIt em',
+    'meNu item'
+]
 
 export default function Navbar() {
     const [openSideBar, setSideBarOpen] = useState(false)
+    const toggleRef = useRef(null)
     const handleMenuClick = () => {
         setSideBarOpen(!openSideBar)
     }
+
+    const togglePos = toggleRef.current?.getBoundingClientRect()
+
     return (
         <>
             <nav className={styles.navBar} id="navbar">
@@ -19,7 +30,7 @@ export default function Navbar() {
                     }}
                         onClick={handleMenuClick}
                     >
-                        <svg t="1699205489318" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="1.2rem" height="1.2rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
+                        <svg t="1699205489318" ref={toggleRef} className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="1.2rem" height="1.2rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
                         目录
                     </div>
                     <div className={styles.left_text}>
@@ -46,11 +57,13 @@ export default function Navbar() {
                 </div>
             </nav >
             {
-                openSideBar && <div className={styles.backdrop} onClick={handleMenuClick}>
-                    <div className={styles.sidebar}>
-                        side bar
-                    </div>
-                </div>
+                openSideBar &&
+                <ul className={styles.sidebar} style={{ position: 'fixed', top: togglePos?.bottom || 0, left: togglePos?.left || 0 }}>
+                    side bar
+                    {MENUITEM.map((item, index) =>
+                        <li className={styles.sidebarItem} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
+                    )}
+                </ul>
             }
 
         </>
