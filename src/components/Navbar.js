@@ -13,16 +13,25 @@ const MENUITEM = [
 
 export default function Navbar() {
     const [openSideBar, setSideBarOpen] = useState(false)
+    const [searchOpen, setSearchOpen] = useState(false)
     const toggleRef = useRef(null)
     const menuRef = useRef(null)
+    const searchRef = useRef(null)
 
     const handleMenuClick = () => {
         setSideBarOpen(!openSideBar)
     }
 
+    const handleSearchClick = () => {
+        setSearchOpen(!searchOpen)
+    }
+
     const handleOutsideClick = e => {
         if (menuRef.current && !menuRef.current.contains(e.target)) {
             setSideBarOpen(false)
+        }
+        if (searchRef.current && !searchRef.current.contains(e.target)) {
+            setSearchOpen(false)
         }
     }
     const togglePos = toggleRef.current?.getBoundingClientRect()
@@ -56,11 +65,12 @@ export default function Navbar() {
                             </ul>
                         }
                     </div>
-                    <div className={styles.left_text}>
-                        <svg t="1699205132959" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="1.0rem" height="1.0rem">
+                    <div className={styles.left_text} ref={searchRef}>
+                        <svg t="1699205132959" onClick={handleSearchClick} className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="1.0rem" height="1.0rem">
                             <path d="M947.2 902.4L736 691.2c64-64 96-147.2 96-243.2 0-211.2-172.8-384-384-384S64 236.8 64 448s172.8 384 384 384c96 0 179.2-32 249.6-89.6l211.2 211.2c12.8 12.8 32 12.8 44.8 0s6.4-38.4-6.4-51.2zM128 448c0-179.2 140.8-320 320-320s320 140.8 320 320-140.8 320-320 320-320-140.8-320-320z" fill="#ffffff"></path>
                         </svg>
-                        搜索
+                        {searchOpen && <input className={styles.searchBar}></input>}
+                        {!searchOpen && <span onClick={handleSearchClick} >搜索</span>}
                     </div>
                 </div>
                 <div className={styles.center}>
