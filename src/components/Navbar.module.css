@@ -19,6 +19,8 @@
     /* margin: 0 auto; */
     flex: 1;
     text-align: center;
+    user-select: none;
+
 }
 
 .left_content {
@@ -48,7 +50,9 @@
 }
 
 .left_text {
+    cursor: pointer;
     color: aliceblue;
+    user-select: none;
 }
 
 .custom_link {
