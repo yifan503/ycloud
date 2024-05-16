@@ -1,7 +1,15 @@
+import styles from './cases.module.css'
+import TypeImage from './typesImage'
+
 export default function CasesPage() {
     return (
         <>
-            cases
+            <div className={styles.galleryContainer}>
+                <TypeImage src='/image/cupboard_type.png' />
+                <TypeImage src='/image/cupboard_type.png' />
+                <TypeImage src='/image/cupboard_type.png' />
+            </div>
+
         </>
     )
 }

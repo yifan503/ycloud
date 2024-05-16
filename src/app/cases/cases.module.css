@@ -1,0 +1,22 @@
+.img_container {
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.image {
+    transition: all 0.5s ease;
+    width: 100%
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.galleryContainer {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
