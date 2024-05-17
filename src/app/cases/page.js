@@ -6,7 +6,7 @@ export default function CasesPage() {
         <>
             <div className={styles.galleryContainer}>
                 <TypeImage src='/image/cupboard_type.png' />
-                <TypeImage src='/image/cupboard_type.png' />
+                <TypeImage src='/image/cupboard.png' />
                 <TypeImage src='/image/cupboard_type.png' />
             </div>
 

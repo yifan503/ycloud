@@ -4,7 +4,7 @@
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    background: #e3cfcf;
+    margin: 10px;
 }
 
 .image {
@@ -14,7 +14,7 @@
 }
 
 .image:hover {
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 .galleryContainer {
