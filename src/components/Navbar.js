@@ -11,6 +11,13 @@ const MENUITEM = [
     'meNu item'
 ]
 
+const MENUHREF = [
+    '/sampleSale',
+    '/sampleSale',
+    '/sampleSale',
+    '/sampleSale',
+]
+
 export default function Navbar() {
     const [openSideBar, setSideBarOpen] = useState(false)
     const [searchOpen, setSearchOpen] = useState(false)
@@ -58,9 +65,10 @@ export default function Navbar() {
                         {
                             openSideBar &&
                             <ul className={styles.sidebar} style={{ position: 'fixed', top: togglePos?.bottom || 0, left: togglePos?.left || 0 }}>
-                                side bar
                                 {MENUITEM.map((item, index) =>
-                                    <li className={styles.sidebarItem} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
+                                    <Link href={MENUHREF[index]} className={styles.custom_link}>
+                                        <li className={styles.sidebarItem} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
+                                    </Link>
                                 )}
                             </ul>
                         }
@@ -80,7 +88,7 @@ export default function Navbar() {
                 </div>
                 <div className={styles.center}>
                     <div className={styles.title_text}>
-                        <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>Y NUVOLA</Link>
+                        <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>TILTLE</Link>
                     </div>
                     <div className={styles.label_text}>
                         <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>上海亿云高端全屋定制</Link>
