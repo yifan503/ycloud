@@ -4,7 +4,7 @@
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    margin: 10px;
+    margin: 15px;
 }
 
 .image {
@@ -17,8 +17,30 @@
     transform: scale(1.1);
 }
 
-.galleryContainer {
+.image_title{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.title{
+    display: block;
     padding-top: 100px;
+    /* padding-left: 10px; */
+    text-align: center;
+    font-size: 30px;
+}
+.galleryContainer {
+    padding: 0 15px 0 15px;
     display: flex;
     flex-direction: row;
+}
+
+.galleryContainer2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
 }
