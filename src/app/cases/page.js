@@ -6,7 +6,7 @@ export default function CasesPage() {
         <>
             <div className={styles.title}>精选现场案例</div>
             <div className={styles.galleryContainer}>
-                <TypeImage src='/image/cupboard_type.png' title='清溪花园别墅299号' id='1' />
+                <TypeImage src='/image/qxhy_gate.JPG' title='清溪花园别墅299号' id='1' />
                 <TypeImage src='/image/cupboard.png' title='西郊庄园别墅' />
                 <TypeImage src='/image/cupboard_type.png' title='金虹别墅' />
             </div>
