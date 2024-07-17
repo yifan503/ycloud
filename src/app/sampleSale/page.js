@@ -1,9 +1,12 @@
 import Link from "next/link";
+import styles from './sampleSale.module.css';
 
 export default function SampleSale() {
     return (
         <>
-            productList
+            <div className={styles.container}>
+                sample sale
+            </div>
         </>
     )
 }

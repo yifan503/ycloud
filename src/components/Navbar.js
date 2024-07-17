@@ -6,12 +6,14 @@ import { useEffect, useRef, useState } from "react";
 
 const MENUITEM = [
     '家具展品出售 Sample Sale',
-    'menu Item',
-    'MenuIt em',
-    'meNu item'
+    '衣帽间定制',
+    '柜体定制',
+    '门类定制',
+    '全屋定制'
 ]
 
 const MENUHREF = [
+    '/sampleSale',
     '/sampleSale',
     '/sampleSale',
     '/sampleSale',
@@ -96,8 +98,8 @@ export default function Navbar() {
 
                 </div>
                 <div className={styles.right_content}>
-                    <Link href='/about' className={styles.custom_link}>公司介绍</Link>
-                    <Link href='/contact_info' className={styles.custom_link}>致电我们</Link>
+                    {/* <Link href='/about' className={styles.custom_link}>公司介绍</Link> */}
+                    <Link href='/contact_info' className={styles.custom_link}>联系我们</Link>
                     <Link href='/cases' className={styles.custom_link}>案例欣赏</Link>
                     <Link href='/showroom' className={styles.custom_link}>线下展厅</Link>
                 </div>
