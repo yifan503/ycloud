@@ -1,0 +1,22 @@
+.container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 500px;
+    height: auto;
+    padding: 20px 20px 0 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
