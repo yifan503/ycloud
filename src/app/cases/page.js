@@ -3,8 +3,23 @@
 import { useState } from 'react'
 import styles from './cases.module.css'
 import TypeImage from './typesImage'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 export default function CasesPage() {
+
+    const settings = {
+        className: 'center',
+        // centerMode: true,
+        dots: true,
+        dotsClass: styles.slick_dots,
+        arrows: true,
+        infinite: true,
+        autoplay: true,
+        // centerPadding: "60px",
+        slidesToShow: 1,
+    };
 
     const [showDetail, setShow] = useState(false)
 
@@ -12,8 +27,11 @@ export default function CasesPage() {
         setShow(true)
     }
 
-    const closeDetail = () => {
-        setShow(false)
+    const closeDetail = (e) => {
+        if (e.target.classList.contains(styles.bg)) {
+            setShow(false)
+
+        }
     }
 
     return (
@@ -26,7 +44,20 @@ export default function CasesPage() {
                 <TypeImage cb={handleclick} src='/image/cupboard_type.png' title='金虹别墅' year='2017' project='酒柜、书柜、木饰面' />
             </div>
             {showDetail && <div className={styles.bg} onClick={closeDetail}>
-                <img className={styles.detail_img} src='/image/qxhy_gate.JPG' alt='img' />
+                {/* carousel */}
+                <div className={styles.slide_container} >
+                    <Slider {...settings}>
+                        <div >
+                            <img className={styles.detail_img} src='/image/qxhy_gate.JPG' alt='img' />
+                        </div>
+                        <div>
+                            <img className={styles.detail_img} src='/image/qxhy_gate.JPG' alt='img' />
+                        </div>
+                        <div>
+                            <img className={styles.detail_img} src='/image/qxhy_gate.JPG' alt='img' />
+                        </div>
+                    </Slider>
+                </div>
             </div>}
         </>
     )

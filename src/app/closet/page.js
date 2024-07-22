@@ -5,11 +5,11 @@ export default function Closet() {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.column}>
+                <div className={styles.row}>
                     <img src='/image/wardrobes.png' alt='wardrobes' className={styles.img} />
 
                 </div>
-                <div className={styles.column}>
+                {/* <div className={styles.column}>
                     <div className={styles.text}>
                         <h1>步入式衣帽间</h1>
                         <span>衣帽间的精致除了科学合理的收纳分区布局外，</span>
@@ -20,7 +20,7 @@ export default function Closet() {
                     </div>
                     <img src='/image/wardrobes2.png' alt='wardrobes' className={styles.img} />
 
-                </div>
+                </div> */}
 
             </div>
         </>
