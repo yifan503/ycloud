@@ -90,7 +90,7 @@ export default function Navbar() {
                 </div>
                 <div className={styles.center}>
                     <div className={styles.title_text}>
-                        <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>TILTLE</Link>
+                        <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>YIYUN</Link>
                     </div>
                     <div className={styles.label_text}>
                         <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}>上海亿云高端全屋定制</Link>
