@@ -15,7 +15,7 @@ const MENUITEM = [
 const MENUHREF = [
     '/sampleSale',
     '/closet',
-    '/sampleSale',
+    '/cabinet',
     '/sampleSale',
     '/sampleSale',
 ]
