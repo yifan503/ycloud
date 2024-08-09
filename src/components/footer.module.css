@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 250px;
+  height: 200px;
   background-color: #212121
 }
 
@@ -13,4 +13,42 @@
   width: 100%;
   font-size: 12px;
   text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  padding: 40px 0 0 0;
+}
+
+.title{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 40px;
+}
+
+
+.name{
+  padding: 40px 0 0 40px;
+  font-size: 28px;
+}
+
+.qrcode{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.types{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 60px; */
+  align-items: center;
+}
+
+.text{
+  padding: 3px;
 }
