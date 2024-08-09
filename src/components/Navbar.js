@@ -16,7 +16,7 @@ const MENUHREF = [
     '/sampleSale',
     '/closet',
     '/cabinet',
-    '/sampleSale',
+    '/door',
     '/sampleSale',
 ]
 

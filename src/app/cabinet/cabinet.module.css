@@ -9,7 +9,7 @@
 .row{
     display: flex;
     flex-direction: row;
-    padding: 0 0 0 40px;
+    padding: 20px 0 0 40px;
     justify-content: center;
 }
 
@@ -45,5 +45,5 @@
 }
 
 .intro_text{
-    padding: 0 0 0 40px;
+    padding: 10px 0 0 40px;
 }

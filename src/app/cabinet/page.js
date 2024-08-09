@@ -15,7 +15,7 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.intro_text_container}>
                     <h2>橱柜</h2>
-                    <div className={styles.intro_text}>厨房作为生活的核心部分，在审美性、功能性，融入室内装饰的选材方面，都做出了细致的考量，使功能和空间相互作用，提高空间利用率。</div>
+                    <div className={styles.intro_text}>厨房作为生活的核心部分，亿云定制在审美性、功能性，融入室内装饰的选材方面，都做出了细致的考量，使功能和空间相互作用，提高空间利用率。</div>
                 </div>
                 <div className={styles.row}>
                     <img src='/image/cupboard3.jpg' alt='wardrobes' className={styles.img} />
@@ -25,7 +25,8 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.intro_text_container}>
                     <h2>酒柜、装饰柜</h2>
-                    <div className={styles.intro_text}>低调内敛的风格和大量精致的细节使意式成为最受欢迎的设计之一。通过建设与居所空间融为一体的方式,利用模块化的组件和材料创造无限自由性及可能性。</div>
+                    <div className={styles.intro_text}>低调内敛的风格和大量精致的细节使意式成为最受欢迎的设计之一。</div>
+                    <div className={styles.intro_text} > 通过建设与居所空间融为一体的方式，利用模块化的组件和材料创造无限自由性及可能性。</div>
                 </div>
                 <div className={styles.row}>
                     <img src='/image/cabinet4.png' alt='wardrobes' className={styles.img} />
@@ -35,10 +36,11 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.intro_text_container}>
                     <h2>卫浴柜</h2>
-                    <div className={styles.intro_text}>低调内敛的风格和大量精致的细节使意式成为最受欢迎的设计之一。通过建设与居所空间融为一体的方式,利用模块化的组件和材料创造无限自由性及可能性。</div>
+                    <div className={styles.intro_text}>由亿云定制的卫浴柜内部空间经过合理规划，开放式置物架与隐藏式抽屉相结合，使得各类洗漱用品、毛巾和清洁工具都能有序存放，便于取用。</div>
                 </div>
                 <div className={styles.row}>
                     <img src='/image/cabinet2.png' alt='wardrobes' className={styles.img} />
+                    <img src='/image/cabinet5.png' alt='wardrobes' className={styles.img} />
                 </div>
 
             </div>
