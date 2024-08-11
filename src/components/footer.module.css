@@ -38,7 +38,7 @@
 .qrcode{
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .types{
@@ -51,4 +51,10 @@
 
 .text{
   padding: 3px;
+}
+
+.qr{
+  width: 120px;
+  padding-left: 10px;
+  padding-right: 80px;
 }

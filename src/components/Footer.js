@@ -19,7 +19,10 @@ export default function Footer() {
                     <span className={styles.text}>护墙板 / 楼梯</span>
                     <span className={styles.text}>意大利进口家居</span>
                 </div>
-                <div className={styles.qrcode}>二维码</div>
+                <div className={styles.qrcode}>
+                    微信
+                    <img src='/image/QR.jpg' alt='qrcode' className={styles.qr} />
+                </div>
 
             </div>
             <div className={styles.bottom}>Copyright © 2023 - 2024 YIYUN. All Rights Reserved. 上海亿云建材 版权所有 </div>

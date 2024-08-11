@@ -7,11 +7,61 @@ export default function ContactInfo() {
     return (
         <>
             <div className={styles.container}>
-                <div>定制流程</div>
-                <div>联系我们</div>
-                <div>地址：</div>
-                <div>电话：</div>
-                <div>微信：</div>
+                <div className={styles.row}>
+                    <img src='/image/showroom_table.png' alt='table' className={styles.head_img} />
+                    <div className={styles.intro}>
+                        <div className={styles.intro_content}>
+                            <h2 className={styles.intro_title} >联系我们</h2>
+                            <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居4楼D8025</div>
+                            <div className={styles.intro_text}>电话：13901839676 梁先生</div>
+                            <div className={styles.intro_text}>微信：</div>
+                            <div className={styles.qr_row}>
+                                <img className={styles.qrcode} src='/image/QR.jpg' alt='qrcode' />
+                                <img className={styles.qrcode} src='/image/QR.jpg' alt='qrcode' />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div className={styles.subtitle}>
+                    <h2>定制流程</h2>
+                </div>
+                <div className={styles.flow}>
+                    <div className={styles.unit}>
+                        <img src='/image/designer.png' alt='img' className={styles.icon} />
+                        <span className={styles.icon_text} >设计师对接</span>
+                    </div>
+                    <img src='/image/arrow.png' alt='arrow' className={styles.arrow} />
+                    <div className={styles.unit}>
+                        <img src='/image/price.png' alt='img' className={styles.icon} />
+                        <span className={styles.icon_text} >确定方案及报价</span>
+                    </div>
+                    <img src='/image/arrow.png' alt='arrow' className={styles.arrow} />
+                    <div className={styles.unit}>
+                        <img src='/image/money.png' alt='img' className={styles.money} />
+                        <span className={styles.icon_text} >首付款支付</span>
+                    </div>
+                    <img src='/image/arrow.png' alt='arrow' className={styles.arrow} />
+                    <div className={styles.unit}>
+                        <img src='/image/factory.png' alt='img' className={styles.icon} />
+                        <span className={styles.icon_text} >工厂下单生产</span>
+                    </div>
+                    <img src='/image/arrow.png' alt='arrow' className={styles.arrow} />
+                    <div className={styles.unit}>
+                        <img src='/image/money.png' alt='img' className={styles.money} />
+                        <span className={styles.icon_text} >支付尾款</span>
+                    </div>
+                    <img src='/image/arrow.png' alt='arrow' className={styles.arrow} />
+                    <div className={styles.unit}>
+                        <img src='/image/truck.png' alt='img' className={styles.icon_need_down} />
+                        <span className={styles.icon_text} >送货上门安装</span>
+                    </div>
+                    <img src='/image/arrow.png' alt='arrow' className={styles.arrow} />
+                    <div className={styles.unit}>
+                        <img src='/image/after.png' alt='img' className={styles.icon_need_down} />
+                        <span className={styles.icon_text} >售后养护</span>
+                    </div>
+                </div>
             </div>
         </>
     )

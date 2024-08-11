@@ -29,6 +29,7 @@ export default function Home() {
                 alt="cupboard"
                 text="橱柜定制案例"
                 buttonText="查看更多"
+                page='/cabinet'
               />
             </div>
             <div className="section">
@@ -37,6 +38,7 @@ export default function Home() {
                 alt="cabinet"
                 text="设计师装饰柜系列"
                 buttonText="即刻探索"
+                page='/cabinet'
               />
             </div>
             <div className="section">
@@ -45,6 +47,7 @@ export default function Home() {
                 alt="moreProduct"
                 text="更多案例鉴赏"
                 buttonText="点击查看"
+                page='/door'
               />
             </div>
           </ReactFullpage.Wrapper>
