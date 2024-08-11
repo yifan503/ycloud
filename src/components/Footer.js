@@ -8,7 +8,7 @@ export default function Footer() {
             </div> */}
             <div className={styles.row}>
                 <div className={styles.title}>
-                    <div className={styles.text}>始于2003年</div>
+                    <div className={styles.text}>上海亿云 始于2003年</div>
                     <div className={styles.text}>别墅｜豪宅｜高端定制整体解决方案</div>
                     <div className={styles.text}>全品类配套一站式私人订制服务</div>
                     <div className={styles.text}>联系电话：13901839676 梁先生</div>
