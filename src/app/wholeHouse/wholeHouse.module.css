@@ -61,6 +61,47 @@
 }
 
 
+.flow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0 120px 100px;
+}
+
+.unit{
+    min-width: 120px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    width: 80px;
+}
+
+.icon_need_down{
+    width: 80px;
+    transform: translateY(24px);
+}
+
+.money{
+    width: 80px;
+    transform: translateY(12px);
+}
+
+.icon_text{
+    display: block;
+    padding-top: 10px;
+}
+
+.arrow{
+    width: 40px;
+    padding: 0 15px 0 15px;
+}
+
 
 /* carousel */
 .slick_dots
