@@ -17,7 +17,7 @@ const MENUHREF = [
     '/closet',
     '/cabinet',
     '/door',
-    '/sampleSale',
+    '/wholeHouse',
 ]
 
 export default function Navbar() {
