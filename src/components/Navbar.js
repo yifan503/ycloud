@@ -12,6 +12,14 @@ const MENUITEM = [
     '全屋定制'
 ]
 
+const MENUITEM_PHONE = [
+    '家具展品出售',
+    '衣帽间定制',
+    '柜体定制',
+    '门类定制',
+    '全屋定制'
+]
+
 const MENUHREF = [
     '/sampleSale',
     '/closet',
@@ -22,13 +30,19 @@ const MENUHREF = [
 
 export default function Navbar() {
     const [openSideBar, setSideBarOpen] = useState(false)
+    const [phoneMenu, setPhoneMenuOpen] = useState(false)
     const [searchOpen, setSearchOpen] = useState(false)
     const toggleRef = useRef(null)
+    const toggleRef_phone = useRef(null)
     const menuRef = useRef(null)
     const searchRef = useRef(null)
 
     const handleMenuClick = () => {
         setSideBarOpen(!openSideBar)
+    }
+
+    const handlePhoneMenuCLick = () => {
+        setPhoneMenuOpen(!phoneMenu)
     }
 
     const handleSearchClick = () => {
@@ -42,8 +56,12 @@ export default function Navbar() {
         if (searchRef.current && !searchRef.current.contains(e.target)) {
             setSearchOpen(false)
         }
+        if (toggleRef_phone.current && !toggleRef_phone.current.contains(e.target)) {
+            setPhoneMenuOpen(false)
+        }
     }
     const togglePos = toggleRef.current?.getBoundingClientRect()
+    const togglePos_phone = toggleRef_phone.current?.getBoundingClientRect()
 
     useEffect(() => {
         document.addEventListener('click', handleOutsideClick, true)
@@ -68,7 +86,7 @@ export default function Navbar() {
                             openSideBar &&
                             <ul className={styles.sidebar} style={{ position: 'fixed', top: togglePos?.bottom || 0, left: togglePos?.left || 0 }}>
                                 {MENUITEM.map((item, index) =>
-                                    <Link href={MENUHREF[index]} className={styles.custom_link}>
+                                    <Link href={MENUHREF[index]} className={styles.custom_link} key={item}>
                                         <li className={styles.sidebarItem} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
                                     </Link>
                                 )}
@@ -105,6 +123,25 @@ export default function Navbar() {
                 </div>
             </nav >
 
+            <nav className={styles.navBar_phone}>
+                <div className={styles.title_phone}>
+                    <h1>YIYUN</h1>
+                </div>
+                <div className={styles.icon} ref={toggleRef_phone} onClick={handlePhoneMenuCLick}>
+                    <svg t="1699205489318" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="2rem" height="2rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
+                    {
+                        phoneMenu &&
+                        <ul className={styles.sidebar_phone} style={{ position: 'fixed', top: togglePos_phone?.bottom || 0, left: togglePos_phone?.left - 150 || 0 }}>
+                            {MENUITEM_PHONE.map((item, index) =>
+                                <Link href={MENUHREF[index]} className={styles.custom_link} key={item}>
+                                    <li className={styles.sidebarItem_phone} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
+                                </Link>
+                            )}
+                        </ul>
+                    }
+                </div>
+
+            </nav>
 
         </>
     )

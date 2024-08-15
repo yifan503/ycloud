@@ -11,6 +11,39 @@
     transition: background-color 0.5s ease;
 }
 
+@media screen and (max-width: 600px){
+    .navBar{
+        display: none;
+    }
+
+    .navBar_phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .title_phone{
+        opacity: 0.8;
+        padding-left: 20px;
+        font-size: 28px;
+    }
+    .icon{
+        opacity: 0.8;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 601px){
+    .navBar_phone{
+        display: none;
+    }
+}
+
 .navBar:hover {
     background-color: #212121;
 }
@@ -77,6 +110,24 @@
     animation: sideBarDropDown 0.5s ease forwards;
 }
 
+.sidebar_phone{
+    width: 10rem;
+    list-style-type: none;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: sideBarDropDown_phone 0.5s ease forwards;
+}
+
+.sidebarItem_phone{
+    animation: fadeIn_phone 0.5s ease forwards;
+    animation-delay: var(--fade-delay);
+    opacity: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
 .sidebarItem {
     /* 动画部分 */
     animation: fadeIn 0.5s ease forwards;
@@ -85,6 +136,7 @@
 
     /* 其他格式 */
     padding: 10px;
+    text-align: left;
 }
 
 @keyframes sideBarDropDown {
@@ -106,6 +158,28 @@
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn_phone{
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes sideBarDropDown_phone {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 250px;
     }
 }
 
