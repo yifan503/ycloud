@@ -32,6 +32,8 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
 }
 
 .overlay{
@@ -42,12 +44,17 @@
 }
 
 .title{
+    opacity: 0;
     padding-bottom: 50px;
     font-size: 3.74rem;
+    animation: fadeInWithMove 0.5s ease forwards;
 }
 
 .intro{
+    opacity: 0;
     font-size: 1.1rem;
+    animation: fadeInWithMove 1s ease forwards;
+    animation-delay: 400ms;
 }
 
 
@@ -84,4 +91,49 @@
 
 .intro_text{
     padding: 0 0 0 40px;
+    font-size: 1.1rem;
+    animation: fadeInWithMoveFromLeft 1s ease forwards;
+    opacity: 0;
+    animation-delay: 400ms;
+}
+
+.sub_title{
+    font-size: 32px;
+    animation: fadeInWithMoveFromLeft 1s ease forwards;
+    opacity: 0;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInWithMove {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInWithMoveFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

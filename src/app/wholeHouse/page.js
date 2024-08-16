@@ -27,7 +27,7 @@ export default function WholeHouse() {
                     <img src='/image/wholehouse.png' className={styles.head_img} alt='wholehouse' />
                     <div className={styles.head_text}>
                         <h1 className={styles.title}>全屋定制</h1>
-                        <p>亿云高级定制，自2003年成立，专注于提供卓越的全屋定制解决方案，包括衣柜、橱柜、书柜等，精选进口及国产高级板材，融合传统工艺与现代设计。我们致力于以个性化服务和精湛工艺，为您打造既实用又具有美学价值的家居空间，让您的生活空间焕发独特魅力。</p>
+                        <p className={styles.head_intro}>亿云高级定制，自2003年成立，专注于提供卓越的全屋定制解决方案，包括衣柜、橱柜、书柜等，精选进口及国产高级板材，融合传统工艺与现代设计。我们致力于以个性化服务和精湛工艺，为您打造既实用又具有美学价值的家居空间，让您的生活空间焕发独特魅力。</p>
                     </div>
                 </div>
                 <h2 className={styles.subtitle}>实拍细节展示</h2>

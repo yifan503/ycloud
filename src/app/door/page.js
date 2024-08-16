@@ -13,15 +13,23 @@ export default function Door() {
                     </div>
                 </div>
                 <div className={styles.title2}>
-                    <h2>移门、折叠门</h2>
+                    <h2 className={styles.subtitle}>移门、折叠门</h2>
                 </div>
                 <div className={styles.row}>
-                    <img src='/image/slidingDoor.png' alt='door' className={styles.slidingDoor} />
-                    <img src='/image/slidingDoor2.png' alt='door' className={styles.slidingDoor} />
-                    <img src='/image/slidingDoor3.png' alt='door' className={styles.slidingDoor} />
+                    <div className={styles.anim_container}>
+                        <img src='/image/slidingDoor.png' alt='door' className={styles.slidingDoor} />
+                    </div>
+                    <div className={styles.anim_container}>
+                        <img src='/image/slidingDoor2.png' alt='door' className={styles.slidingDoor} />
+                    </div>
+                    <div className={styles.anim_container}>
+                        <img src='/image/slidingDoor3.png' alt='door' className={styles.slidingDoor} />
+                    </div>
+                    {/* <img src='/image/slidingDoor2.png' alt='door' className={styles.slidingDoor} />
+                    <img src='/image/slidingDoor3.png' alt='door' className={styles.slidingDoor} /> */}
                 </div>
                 <div className={styles.title2}>
-                    <h2>单开门</h2>
+                    <h2 className={styles.subtitle}>单开门</h2>
                 </div>
                 <div className={styles.row}>
                     <img src='/image/singleDoor.png' alt='door' className={styles.singleDoor} />

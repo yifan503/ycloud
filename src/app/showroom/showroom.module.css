@@ -20,11 +20,18 @@
     position: absolute;
     top: 30%;
     left: 65%;
-    background-color: rgba(15, 15, 15, 0.5);
+    background: rgba(0, 0, 0, 0.3) ;
     height: 350px;
     width: 400px;
     padding: 20px;
     letter-spacing: 1px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 400ms;
 }
 
 .text{
@@ -35,6 +42,8 @@
 .slide_container{
     width: 70%;
     height: auto;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
 }
 
 .img{
@@ -132,4 +141,15 @@
 {
     opacity: .75;
     color: black;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

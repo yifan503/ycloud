@@ -15,7 +15,7 @@ export default function Closet() {
                     </div>
                 </div>
                 <div className={styles.intro_text_container}>
-                    <h2>衣帽间案例精选</h2>
+                    <h2 className={styles.sub_title}>衣帽间案例精选</h2>
                     <div className={styles.intro_text}>造型简单却设计感十足，金属框架打造的产品也不会呆板，让居住的生活简单而又富有精致美感。</div>
                 </div>
                 <div className={styles.row}>
