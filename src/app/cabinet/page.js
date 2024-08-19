@@ -21,15 +21,17 @@ export default function Cabinet() {
                     <div className={styles.anim_container}>
                         <img src='/image/cupboard3.jpg' alt='wardrobes' className={styles.img} />
                     </div>
-                    <div className={styles.anim_container}>
+                    <div className={styles.anim_container_2}>
                         <img src='/image/cupboard4.jpg' alt='wardrobes' className={styles.img} />
                     </div>
-                    <div className={styles.anim_container}>
+                    {/* <div className={styles.anim_container}>
                         <img src='/image/cabinet4.jpg' alt='wardrobes' className={styles.img} />
-                    </div>
+                    </div> */}
                     {/* <img src='/image/cupboard4.jpg' alt='wardrobes' className={styles.img} />
                     <img src='/image/cupboard5.png' alt='wardrobes' className={styles.img} /> */}
-
+                    <div className={styles.anim_cupboard}>
+                        <img src='/image/cupboard5.jpg' alt='wardrobes' className={styles.img} />
+                    </div>
                 </div>
                 <div className={styles.intro_text_container}>
                     <h2 className={styles.sub_title}>酒柜、装饰柜</h2>
@@ -41,7 +43,7 @@ export default function Cabinet() {
                         <img src='/image/cabinet3.jpg' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_gradevin}>
-                        <img src='/image/cupboard5.jpg' alt='wardrobes' className={styles.img} />
+                        <img src='/image/cabinet4.jpg' alt='wardrobes' className={styles.img} />
                     </div>
 
                 </div>

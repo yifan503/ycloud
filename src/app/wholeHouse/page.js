@@ -12,14 +12,14 @@ export default function WholeHouse() {
     const CustomNextArrow = (props) => {
         const { className, style, onClick } = props
         return (
-            <svg className={className} style={{ ...style, display: 'block' }} onClick={onClick} t="1724065022701" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8989" width="200" height="200"><path d="M472.064 272.448l-399.232 399.232c-22.08 22.08-22.08 57.792 0 79.872 22.016 22.016 57.792 22.08 79.872 0L512 392.256l359.296 359.296c22.016 22.016 57.792 22.08 79.872 0 22.08-22.08 22.016-57.792 0-79.872L551.936 272.448C529.856 250.432 494.144 250.432 472.064 272.448z" fill="#e6e6e6" p-id="8990"></path></svg>
+            <svg className={className} style={{ ...style, display: 'block' }} onClick={onClick} t="1724065022701" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8989" width="20" height="20"><path d="M472.064 272.448l-399.232 399.232c-22.08 22.08-22.08 57.792 0 79.872 22.016 22.016 57.792 22.08 79.872 0L512 392.256l359.296 359.296c22.016 22.016 57.792 22.08 79.872 0 22.08-22.08 22.016-57.792 0-79.872L551.936 272.448C529.856 250.432 494.144 250.432 472.064 272.448z" fill="#e6e6e6" p-id="8990"></path></svg>
         )
     }
 
     const CustomPrevArrow = (props) => {
         const { className, style, onClick } = props
         return (
-            <svg className={className} style={{ ...style, display: 'block' }} onClick={onClick} t="1724065022701" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8989" width="200" height="200"><path d="M472.064 272.448l-399.232 399.232c-22.08 22.08-22.08 57.792 0 79.872 22.016 22.016 57.792 22.08 79.872 0L512 392.256l359.296 359.296c22.016 22.016 57.792 22.08 79.872 0 22.08-22.08 22.016-57.792 0-79.872L551.936 272.448C529.856 250.432 494.144 250.432 472.064 272.448z" fill="#e6e6e6" p-id="8990"></path></svg>
+            <svg className={className} style={{ ...style, display: 'block' }} onClick={onClick} t="1724065022701" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8989" width="20" height="20"><path d="M472.064 272.448l-399.232 399.232c-22.08 22.08-22.08 57.792 0 79.872 22.016 22.016 57.792 22.08 79.872 0L512 392.256l359.296 359.296c22.016 22.016 57.792 22.08 79.872 0 22.08-22.08 22.016-57.792 0-79.872L551.936 272.448C529.856 250.432 494.144 250.432 472.064 272.448z" fill="#e6e6e6" p-id="8990"></path></svg>
         )
     }
 

@@ -101,13 +101,37 @@
     /* 鼠标悬停时添加下划线 */
     /* 添加更多悬停状态的样式 */
 }
+.close{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.close_icon{
+    transition: all 0.5s ease;
+    margin: 20px 20px 0 0;
+}
+
+.close_icon:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
 
 .sidebar {
-    padding-top: 10px;
-    width: 12rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    /* padding-top: 10px; */
+    height: 100vh;
     z-index: 2000;
-    background-color: rgba(15, 15, 15, 0.5);
+    background-color: #fff;
     animation: sideBarDropDown 0.5s ease forwards;
+    list-style-type: none;
+
+}
+.sidebar:hover{
+    cursor: auto;
 }
 
 .sidebar_phone{
@@ -133,27 +157,52 @@
     animation: fadeIn 0.5s ease forwards;
     animation-delay: var(--fade-delay);
     opacity: 0;
+    transition: background-color 0.6s ease;
+    transition: font-size 0.5s ease;
 
     /* 其他格式 */
-    padding: 10px;
+    padding: 12px 0 12px 40px;
+    margin: 12px 0 12px 0;
     text-align: left;
-    font-size: 18px;
+    color: #393939;
+    font-size: 22px;
+    
+}
+
+.sidebarItem:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 28px;
+}
+
+.back{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(33, 33, 33, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 1500;
+}
+
+.back:hover{
+    cursor: auto;
 }
 
 @keyframes sideBarDropDown {
     from {
-        height: 0;
+        width: 0;
     }
 
     to {
-        height: 200px;
+        width: 30%;
     }
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateX(-30px);
+        transform: translateX(-100px);
     }
 
     to {

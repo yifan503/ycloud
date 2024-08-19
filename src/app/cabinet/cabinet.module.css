@@ -85,6 +85,7 @@
     /* position: relative; */
     /* left: 10%; */
     padding-left: 10%;
+    margin-bottom: 20px;
 
 }
 
@@ -104,10 +105,31 @@
 }
 
 .anim_container{
-    width: 350px;
-    height: 500px;
-    margin: 40px 20px 0 20px;
+    width: 266px;
+    height: 400px;
+    /* margin: 40px 0px 60px 0px; */
     overflow: hidden;
+    border-radius: 0.8rem;
+    transform: translate(20px,-45px);
+}
+
+.anim_container_2{
+    width: 300px;
+    height: 432px;
+    overflow: hidden;
+    border-radius: 0.8rem;
+    z-index: 100;
+    transform: translate(-20px,25px);
+    margin: 40px 20px 0 0;
+    box-shadow: -5px 0 30px rgba(0,0,0,0.8);
+
+}
+
+.anim_cupboard{
+    width: 680px;
+    height: 512px;
+    overflow: hidden;
+    border-radius: 1.2rem;
 }
 
 .anim_gradevin{
@@ -115,6 +137,7 @@
     height: 360px;
     margin: 20px 20px 0 20px;
     overflow: hidden;
+    border-radius: 0.8rem;
 }
 
 

@@ -80,17 +80,24 @@ export default function Navbar() {
                         ref={menuRef}
                         onClick={handleMenuClick}
                     >
-                        <svg t="1699205489318" ref={toggleRef} className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="1.2rem" height="1.2rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
+                        <svg t="1699205489318" ref={toggleRef} className={styles.close} viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="1.2rem" height="1.2rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
                         目录
                         {
                             openSideBar &&
-                            <ul className={styles.sidebar} style={{ position: 'fixed', top: togglePos?.bottom || 0, left: togglePos?.left || 0 }}>
+                            <ul className={styles.sidebar}>
+                                <li className={styles.close}>
+                                    <svg t="1724084076409" className={styles.close_icon} viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7184" width="40" height="40"><path d="M512 1024C228.072727 1024 0 795.927273 0 512S228.072727 0 512 0s512 228.072727 512 512-228.072727 512-512 512z m0-46.545455c256 0 465.454545-209.454545 465.454545-465.454545S768 46.545455 512 46.545455 46.545455 256 46.545455 512s209.454545 465.454545 465.454545 465.454545z m0-514.327272l148.945455-148.945455c13.963636-13.963636 34.909091-13.963636 48.872727 0 13.963636 13.963636 13.963636 34.909091 0 48.872727L560.872727 512l148.945455 148.945455c13.963636 13.963636 13.963636 34.909091 0 48.872727-13.963636 13.963636-34.909091 13.963636-48.872727 0L512 560.872727l-148.945455 148.945455c-13.963636 13.963636-34.909091 13.963636-48.872727 0-13.963636-13.963636-13.963636-34.909091 0-48.872727l148.945455-148.945455-148.945455-148.945455c-13.963636-13.963636-13.963636-34.909091 0-48.872727 13.963636-13.963636 34.909091-13.963636 48.872727 0l148.945455 148.945455z" fill="#333333" p-id="7185"></path></svg>
+
+                                </li>
                                 {MENUITEM.map((item, index) =>
                                     <Link href={MENUHREF[index]} className={styles.custom_link} key={item}>
                                         <li className={styles.sidebarItem} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
                                     </Link>
                                 )}
                             </ul>
+                        }
+                        {
+                            openSideBar && <div className={styles.back} />
                         }
                     </div>
                     <div className={styles.left_text} ref={searchRef}>
