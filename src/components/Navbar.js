@@ -5,7 +5,7 @@ import styles from './Navbar.module.css'
 import { useEffect, useRef, useState } from "react";
 
 const MENUITEM = [
-    '家具展品出售 Sample Sale',
+    // '家具展品出售 Sample Sale',
     '衣帽间定制',
     '柜体定制',
     '门类定制',
@@ -13,7 +13,7 @@ const MENUITEM = [
 ]
 
 const MENUITEM_PHONE = [
-    '家具展品出售',
+    // '家具展品出售',
     '衣帽间定制',
     '柜体定制',
     '门类定制',
@@ -21,7 +21,7 @@ const MENUITEM_PHONE = [
 ]
 
 const MENUHREF = [
-    '/sampleSale',
+    // '/sampleSale',
     '/closet',
     '/cabinet',
     '/door',

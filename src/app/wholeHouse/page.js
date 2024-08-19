@@ -4,33 +4,54 @@
 import styles from './wholeHouse.module.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import './slick.css';
 import Slider from "react-slick";
 
 export default function WholeHouse() {
 
+    const CustomNextArrow = (props) => {
+        const { className, style, onClick } = props
+        return (
+            <svg className={className} style={{ ...style, display: 'block' }} onClick={onClick} t="1724065022701" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8989" width="200" height="200"><path d="M472.064 272.448l-399.232 399.232c-22.08 22.08-22.08 57.792 0 79.872 22.016 22.016 57.792 22.08 79.872 0L512 392.256l359.296 359.296c22.016 22.016 57.792 22.08 79.872 0 22.08-22.08 22.016-57.792 0-79.872L551.936 272.448C529.856 250.432 494.144 250.432 472.064 272.448z" fill="#e6e6e6" p-id="8990"></path></svg>
+        )
+    }
+
+    const CustomPrevArrow = (props) => {
+        const { className, style, onClick } = props
+        return (
+            <svg className={className} style={{ ...style, display: 'block' }} onClick={onClick} t="1724065022701" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8989" width="200" height="200"><path d="M472.064 272.448l-399.232 399.232c-22.08 22.08-22.08 57.792 0 79.872 22.016 22.016 57.792 22.08 79.872 0L512 392.256l359.296 359.296c22.016 22.016 57.792 22.08 79.872 0 22.08-22.08 22.016-57.792 0-79.872L551.936 272.448C529.856 250.432 494.144 250.432 472.064 272.448z" fill="#e6e6e6" p-id="8990"></path></svg>
+        )
+    }
+
+
+
     const settings = {
-        className: 'center',
-        // centerMode: true,
+        className: 'center-slider',
+        centerMode: true,
         dots: true,
         dotsClass: styles.slick_dots,
         arrows: true,
         infinite: true,
         autoplay: true,
-        // centerPadding: "60px",
-        slidesToShow: 1,
+        centerPadding: 0,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        nextArrow: <CustomNextArrow />,
+        prevArrow: <CustomPrevArrow />
     };
 
     return (
         <>
             <div className={styles.container}>
                 <div className={styles.row}>
-                    <img src='/image/wholehouse.png' className={styles.head_img} alt='wholehouse' />
+                    <img src='/image/wholehouse.jpg' className={styles.head_img} alt='wholehouse' />
                     <div className={styles.head_text}>
                         <h1 className={styles.title}>全屋定制</h1>
                         <p className={styles.head_intro}>亿云高级定制，自2003年成立，专注于提供卓越的全屋定制解决方案，包括衣柜、橱柜、书柜等，精选进口及国产高级板材，融合传统工艺与现代设计。我们致力于以个性化服务和精湛工艺，为您打造既实用又具有美学价值的家居空间，让您的生活空间焕发独特魅力。</p>
                     </div>
                 </div>
-                <h2 className={styles.subtitle}>实拍细节展示</h2>
+                <h2 className={styles.subtitle}>细节展示</h2>
                 <div className={styles.row}>
                     <div className={styles.slide_container} >
 
@@ -43,6 +64,12 @@ export default function WholeHouse() {
                             </div>
                             <div>
                                 <img src='/image/product_detail3.jpg' alt='detail' className={styles.img} />
+                            </div>
+                            <div>
+                                <img src='/image/product_detail4.jpg' alt='detail' className={styles.img} />
+                            </div>
+                            <div>
+                                <img src='/image/product_detail5.jpg' alt='detail' className={styles.img} />
                             </div>
                         </Slider>
                     </div>

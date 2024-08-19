@@ -104,7 +104,7 @@
 
 .sidebar {
     padding-top: 10px;
-    width: 15rem;
+    width: 12rem;
     z-index: 2000;
     background-color: rgba(15, 15, 15, 0.5);
     animation: sideBarDropDown 0.5s ease forwards;
@@ -137,6 +137,7 @@
     /* 其他格式 */
     padding: 10px;
     text-align: left;
+    font-size: 18px;
 }
 
 @keyframes sideBarDropDown {
@@ -145,7 +146,7 @@
     }
 
     to {
-        height: 230px;
+        height: 200px;
     }
 }
 

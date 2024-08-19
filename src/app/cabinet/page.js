@@ -25,7 +25,7 @@ export default function Cabinet() {
                         <img src='/image/cupboard4.jpg' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_container}>
-                        <img src='/image/cupboard5.png' alt='wardrobes' className={styles.img} />
+                        <img src='/image/cabinet4.jpg' alt='wardrobes' className={styles.img} />
                     </div>
                     {/* <img src='/image/cupboard4.jpg' alt='wardrobes' className={styles.img} />
                     <img src='/image/cupboard5.png' alt='wardrobes' className={styles.img} /> */}
@@ -38,10 +38,10 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.anim_gradevin}>
-                        <img src='/image/cabinet3.png' alt='wardrobes' className={styles.img} />
+                        <img src='/image/cabinet3.jpg' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_gradevin}>
-                        <img src='/image/cabinet4.png' alt='wardrobes' className={styles.img} />
+                        <img src='/image/cupboard5.jpg' alt='wardrobes' className={styles.img} />
                     </div>
 
                 </div>
@@ -59,10 +59,10 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.anim_gradevin}>
-                        <img src='/image/cabinet2.png' alt='wardrobes' className={styles.img} />
+                        <img src='/image/cabinet5.jpg' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_gradevin}>
-                        <img src='/image/cabinet5.png' alt='wardrobes' className={styles.img} />
+                        <img src='/image/cabinet6.jpg' alt='wardrobes' className={styles.img} />
                     </div>
 
                 </div>

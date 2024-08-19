@@ -16,7 +16,16 @@ export default function Home() {
           <ReactFullpage.Wrapper>
             <div className="section">
               <ImageItem
-                src="/image/closet.png"
+                src="/image/cabinet.jpg"
+                alt="cabinet"
+                text="定制柜系列"
+                buttonText="即刻探索"
+                page='/cabinet'
+              />
+            </div>
+            <div className="section">
+              <ImageItem
+                src="/image/closet.jpg"
                 alt="cloakroom"
                 text="步入式衣帽间方案"
                 buttonText="即刻探索"
@@ -25,25 +34,16 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="/image/cupboard2.png"
+                src="/image/cabinet2.jpg"
                 alt="cupboard"
-                text="橱柜定制案例"
+                text="卫浴柜定制案例"
                 buttonText="查看更多"
                 page='/cabinet'
               />
             </div>
             <div className="section">
               <ImageItem
-                src="/image/cabinet.png"
-                alt="cabinet"
-                text="设计师装饰柜系列"
-                buttonText="即刻探索"
-                page='/cabinet'
-              />
-            </div>
-            <div className="section">
-              <ImageItem
-                src="/image/more_case.png"
+                src="/image/cupboard2.jpg"
                 alt="moreProduct"
                 text="更多案例鉴赏"
                 buttonText="点击查看"

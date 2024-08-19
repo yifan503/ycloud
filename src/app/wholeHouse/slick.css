@@ -1,0 +1,33 @@
+.center-slider .slick-current.slick-active{
+    transform: scale(1.1);
+    z-index: 100;
+    box-shadow: 0px 0px 100px rgba(0,0,0,1);
+
+  }
+  .center-slider .slick-center,
+.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
+  transform: scale(1.1);
+}
+
+.center-slider .slick-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.9);
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.slick-next{
+    width: 40px;
+    height: 40px;
+    transform: rotate(90deg);
+    right: -35px;
+}
+
+.slick-prev{
+    width: 40px;
+    height: 40px;
+    transform: rotate(-90deg);
+    left: -35px
+}

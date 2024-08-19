@@ -19,15 +19,21 @@ export default function Closet() {
                     <div className={styles.intro_text}>造型简单却设计感十足，金属框架打造的产品也不会呆板，让居住的生活简单而又富有精致美感。</div>
                 </div>
                 <div className={styles.row}>
-
-                    <img src='/image/wardrobes2.png' alt='wardrobes' className={styles.img_up} />
-                    <img src='/image/wardrobes3.jpg' alt='wardrobes' className={styles.img_down} />
-
-                    <img src='/image/wardrobes.png' alt='wardrobes' className={styles.img_left} />
-
-
+                    <div className={styles.img_box}>
+                        <img src='/image/wardrobes2.jpg' alt='wardrobes' className={styles.img} />
+                    </div>
+                </div>
+                <div className={styles.row}>
+                    <div className={styles.img_box}>
+                        <img src='/image/wardrobes4.jpg' alt='wardrobes' className={styles.img} />
+                    </div>
                 </div>
                 <div className={styles.row} >
+                    <div className={styles.img_box}>
+                        <img src='/image/wardrobes.jpg' alt='wardrobes' className={styles.img} />
+
+                    </div>
+                    {/* <img src='/image/wardrobes3.jpg' alt='wardrobes' className={styles.img_down} /> */}
                 </div>
 
             </div>
