@@ -7,7 +7,7 @@ export default function SampleSale() {
         <>
             <div className={styles.container}>
                 <div className={styles.title_row}>
-                    <img src='/image/sample.jpg' alt='table' className={styles.img} />
+                    {/* <img src='/image/sample.jpg' alt='table' className={styles.img} /> */}
                     <div>
                         <h1>sample sale</h1>
                         <p>折扣价卖一些展品</p>

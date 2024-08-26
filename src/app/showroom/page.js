@@ -25,10 +25,10 @@ export default function ShowRoom() {
                     <div className={styles.slide_container} >
                         <Slider {...settings}>
                             <div >
-                                <img src='/image/showroom_main.jpg' alt='showroom' className={styles.img} />
+                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_main.jpg?imageslim' alt='showroom' className={styles.img} />
                             </div>
                             <div>
-                                <img src='/image/showroom_bar2.jpg' alt='showroom' className={styles.img} />
+                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_bar2.jpg?imageslim' alt='showroom' className={styles.img} />
                             </div>
                         </Slider>
                     </div>

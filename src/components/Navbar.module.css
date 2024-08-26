@@ -101,6 +101,11 @@
     /* 鼠标悬停时添加下划线 */
     /* 添加更多悬停状态的样式 */
 }
+
+.custom_link2{
+    text-decoration: none;
+}
+
 .close{
     display: flex;
     flex-direction: row;
@@ -166,6 +171,8 @@
     text-align: left;
     color: #393939;
     font-size: 22px;
+    text-decoration: none;
+
     
 }
 
@@ -195,7 +202,7 @@
     }
 
     to {
-        width: 30%;
+        width: 35%;
     }
 }
 

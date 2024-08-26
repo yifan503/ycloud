@@ -90,7 +90,7 @@ export default function Navbar() {
 
                                 </li>
                                 {MENUITEM.map((item, index) =>
-                                    <Link href={MENUHREF[index]} className={styles.custom_link} key={item}>
+                                    <Link href={MENUHREF[index]} className={styles.custom_link2} key={item}>
                                         <li className={styles.sidebarItem} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
                                     </Link>
                                 )}

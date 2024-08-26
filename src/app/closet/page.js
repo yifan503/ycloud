@@ -6,7 +6,7 @@ export default function Closet() {
         <>
             <div className={styles.container}>
                 <div className={styles.img_container}>
-                    <img src='/image/door_detail.jpg' alt='door' className={styles.head_img} />
+                    <img src='http://cdn.yiyunjiancai.com/pages/closet/door_detail.jpg?imageslim' alt='door' className={styles.head_img} />
                     <div className={styles.overlay}>
                         <h1 className={styles.title}>衣帽间定制</h1>
                         <p className={styles.intro}>衣帽间的精致除了科学合理的收纳分区布局外，</p>
@@ -20,17 +20,17 @@ export default function Closet() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.img_box}>
-                        <img src='/image/wardrobes2.jpg' alt='wardrobes' className={styles.img} />
+                        <img src='http://cdn.yiyunjiancai.com/pages/closet/wardrobes2.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>
                 <div className={styles.row}>
                     <div className={styles.img_box}>
-                        <img src='/image/wardrobes4.jpg' alt='wardrobes' className={styles.img} />
+                        <img src='http://cdn.yiyunjiancai.com/pages/closet/wardrobes3.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>
                 <div className={styles.row} >
                     <div className={styles.img_box}>
-                        <img src='/image/wardrobes.jpg' alt='wardrobes' className={styles.img} />
+                        <img src='http://cdn.yiyunjiancai.com/pages/closet/wardrobes.jpg?imageslim' alt='wardrobes' className={styles.img} />
 
                     </div>
                     {/* <img src='/image/wardrobes3.jpg' alt='wardrobes' className={styles.img_down} /> */}

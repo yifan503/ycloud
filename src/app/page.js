@@ -16,7 +16,7 @@ export default function Home() {
           <ReactFullpage.Wrapper>
             <div className="section">
               <ImageItem
-                src="/image/cabinet.jpg"
+                src="http://cdn.yiyunjiancai.com/pages/index/cabinet.jpg?imageslim"
                 alt="cabinet"
                 text="定制柜系列"
                 buttonText="即刻探索"
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="/image/closet.jpg"
+                src="http://cdn.yiyunjiancai.com/pages/index/closet.jpg?imageslim"
                 alt="cloakroom"
                 text="步入式衣帽间方案"
                 buttonText="即刻探索"
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="/image/cabinet2.jpg"
+                src="http://cdn.yiyunjiancai.com/pages/index/cabinet2.jpg?imageslim"
                 alt="cupboard"
                 text="卫浴柜定制案例"
                 buttonText="查看更多"
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="/image/cupboard2.jpg"
+                src="http://cdn.yiyunjiancai.com/pages/index/cupboard2.jpg?imageslim"
                 alt="moreProduct"
                 text="更多案例鉴赏"
                 buttonText="点击查看"
