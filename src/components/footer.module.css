@@ -58,3 +58,11 @@
   padding-left: 10px;
   padding-right: 80px;
 }
+
+.icp:link{
+  color: aliceblue;
+}
+
+.icp:visited{
+  color: aliceblue;
+}

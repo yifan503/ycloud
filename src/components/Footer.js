@@ -25,7 +25,14 @@ export default function Footer() {
                 </div>
 
             </div>
-            <div className={styles.bottom}>Copyright © 2023 - 2024 YIYUN. All Rights Reserved. 上海亿云建材 版权所有 </div>
+            <div className={styles.bottom}>
+                {/* <span>
+                    bei
+                </span> */}
+                <span>
+                    Copyright © 2023 - 2024 YIYUN. All Rights Reserved. 上海亿云建材 版权所有 <a className={styles.icp} href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2024090209号-1</a>
+                </span>
+            </div>
         </footer>
     )
 }
