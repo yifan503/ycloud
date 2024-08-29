@@ -99,9 +99,9 @@ export default function CasesPage() {
                             <img src='http://cdn.yiyunjiancai.com/cases/img8.JPG?imageslim' alt='detail' className={styles.img2} />
                             <img src='http://cdn.yiyunjiancai.com/cases/img9.JPG?imageslim' alt='detail' className={styles.img2} />
                             <img src='http://cdn.yiyunjiancai.com/cases/img10.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img12.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img13.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img14.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='http://cdn.yiyunjiancai.com/cases/img12.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='http://cdn.yiyunjiancai.com/cases/img13.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='http://cdn.yiyunjiancai.com/cases/img14.jpg?imageslim' alt='detail' className={styles.img2} />
                         </Slider>
                     </div>
                 </div>
