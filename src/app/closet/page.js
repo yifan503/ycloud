@@ -12,6 +12,7 @@ export default function Closet() {
                         <p className={styles.intro}>衣帽间的精致除了科学合理的收纳分区布局外，</p>
                         <p className={styles.intro}>结构、美感与灯光也是极为重要的成分。</p>
                         <p className={styles.intro}>高定衣帽间从居住者的生活中汲取灵感，匹配居住者的高级审美和品味生活需求。</p>
+                        <p className={styles.intro_phone}>衣帽间的精致除了科学合理的收纳分区布局外，结构、美感与灯光也是极为重要的成分。高定衣帽间从居住者的生活中汲取灵感，匹配居住者的高级审美和品味生活需求。</p>
                     </div>
                 </div>
                 <div className={styles.intro_text_container}>

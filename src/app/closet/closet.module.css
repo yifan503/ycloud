@@ -150,3 +150,32 @@
         transform: translateX(0);
     }
 }
+
+/* mobile */
+@media screen and (max-width: 600px){
+    .title{
+        font-size: 2rem;
+    }
+    .intro{
+        display: none;
+    }
+    .intro_phone{
+        /* letter-spacing: 2px; */
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .intro_text{
+        display: none;
+    }
+    .intro_text_container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* pc */
+@media screen and (min-width: 601px){
+    .intro_phone{
+        display: none;
+    }
+}
