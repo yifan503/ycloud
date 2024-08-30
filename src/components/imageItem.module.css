@@ -3,17 +3,73 @@
     position: relative;
   }
   
-.img{
+
+  
+
+/* 电脑 */
+@media screen and (min-width: 601px){
+  .img{
     display: block;
     width: 100%;
     height: 100vh;
     object-fit: cover;
     margin: 0;
   }
-  
+
+.image_text{
+  padding-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.image_button {
+  /* 模糊 */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  /* 按钮样式 */
+  border: 1.5px solid aliceblue;
+  border-radius: 2rem;
+  padding: 0.6rem 4.5rem;
+  transition: transform 0.5s ease;
+  /* 字体 */
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.image_button:hover {
+  transform: scale(1.05);
+}
+
+.overlay_item{
+  position: absolute;
+  bottom: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+}
+/* 手机 */
+@media screen and (max-width: 600px){
+  .item:not(:first-child){
+    margin: 0 0.5rem 0.5rem 0.5rem;
+  }
+  .item:first-child{
+    padding-bottom: 0.5rem;
+  }
+
+  .img{
+    display: block;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    margin: 0;
+  }
+
   .image_text{
-    padding-bottom: 1.2rem;
-    font-size: 1.5rem;
+    padding-bottom: 1.6rem;
+    font-size: 1.6rem;
   }
   
   .image_button {
@@ -23,6 +79,8 @@
     /* 按钮样式 */
     border: 1.5px solid aliceblue;
     border-radius: 2rem;
+    width: 250px;
+    height: 50px;
     padding: 0.6rem 4.5rem;
     transition: transform 0.5s ease;
     /* 字体 */
@@ -36,7 +94,7 @@
   
   .overlay_item{
     position: absolute;
-    bottom: 3.5rem;
+    bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -44,4 +102,4 @@
     flex-direction: column;
     align-items: center;
   }
-  
+}

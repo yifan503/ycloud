@@ -1,0 +1,19 @@
+/* 手机 */
+@media screen and (max-width: 600px){
+    .index_container{
+        display: none;
+    }
+    .index_container_phone{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+}
+
+
+/* 电脑 */
+@media screen and (min-width: 601px){
+    .index_container_phone{
+        display: none;
+    }
+}

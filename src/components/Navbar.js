@@ -17,7 +17,10 @@ const MENUITEM_PHONE = [
     '衣帽间定制',
     '柜体定制',
     '门类定制',
-    '全屋定制'
+    '全屋定制',
+    '案例欣赏',
+    '联系我们',
+    '线下展厅'
 ]
 
 const MENUHREF = [
@@ -26,6 +29,16 @@ const MENUHREF = [
     '/cabinet',
     '/door',
     '/wholeHouse',
+]
+
+const MENUHREF_PHONE = [
+    '/closet',
+    '/cabinet',
+    '/door',
+    '/wholeHouse',
+    '/cases',
+    '/contact_info',
+    '/showroom'
 ]
 
 export default function Navbar() {
@@ -132,16 +145,22 @@ export default function Navbar() {
 
             <nav className={styles.navBar_phone}>
                 <div className={styles.title_phone}>
-                    <h1>YIYUN</h1>
+                    <Link href='/' style={{ textDecoration: 'none', color: 'aliceblue' }}><h1>YIYUN</h1></Link>
                 </div>
                 <div className={styles.icon} ref={toggleRef_phone} onClick={handlePhoneMenuCLick}>
-                    <svg t="1699205489318" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="2rem" height="2rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
+                    <svg t="1699205489318" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3260" width="1.8rem" height="1.8rem"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#ffffff" p-id="3261"></path></svg>
                     {
                         phoneMenu &&
-                        <ul className={styles.sidebar_phone} style={{ position: 'fixed', top: togglePos_phone?.bottom || 0, left: togglePos_phone?.left - 150 || 0 }}>
+                        <ul className={styles.sidebar_phone} >
+                            <li className={styles.close}>
+                                <svg t="1724084076409" className={styles.close_icon} viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7184" width="40" height="40"><path d="M512 1024C228.072727 1024 0 795.927273 0 512S228.072727 0 512 0s512 228.072727 512 512-228.072727 512-512 512z m0-46.545455c256 0 465.454545-209.454545 465.454545-465.454545S768 46.545455 512 46.545455 46.545455 256 46.545455 512s209.454545 465.454545 465.454545 465.454545z m0-514.327272l148.945455-148.945455c13.963636-13.963636 34.909091-13.963636 48.872727 0 13.963636 13.963636 13.963636 34.909091 0 48.872727L560.872727 512l148.945455 148.945455c13.963636 13.963636 13.963636 34.909091 0 48.872727-13.963636 13.963636-34.909091 13.963636-48.872727 0L512 560.872727l-148.945455 148.945455c-13.963636 13.963636-34.909091 13.963636-48.872727 0-13.963636-13.963636-13.963636-34.909091 0-48.872727l148.945455-148.945455-148.945455-148.945455c-13.963636-13.963636-13.963636-34.909091 0-48.872727 13.963636-13.963636 34.909091-13.963636 48.872727 0l148.945455 148.945455z" fill="#333333" p-id="7185"></path></svg>
+                            </li>
                             {MENUITEM_PHONE.map((item, index) =>
-                                <Link href={MENUHREF[index]} className={styles.custom_link} key={item}>
-                                    <li className={styles.sidebarItem_phone} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>{item}</li>
+                                <Link href={MENUHREF_PHONE[index]} className={styles.custom_link} key={item}>
+                                    <li className={styles.sidebarItem_phone} style={{ '--fade-delay': `${index * 100}ms` }} key={index}>
+                                        <span>{item}</span>
+                                        <svg t="1725016644924" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13263" width="30" height="30"><path d="M615.978667 536.192a34.133333 34.133333 0 0 0 0-48.298667l-2.986667-2.986666a11.733333 11.733333 0 0 0-0.512-0.426667c-1.194667-1.109333-2.432-2.133333-3.413333-3.413333a49.066667 49.066667 0 0 0-2.773334-2.986667l-168.32-168.277333a12.8 12.8 0 0 0-18.090666 0l-18.090667 18.133333a12.8 12.8 0 0 0 0 18.090667l156.928 156.928a12.8 12.8 0 0 1 0 18.090666L401.792 677.973333a12.8 12.8 0 0 0 0 18.090667l18.090667 18.133333a12.8 12.8 0 0 0 18.090666 0l178.005334-178.005333z" fill="#515151" p-id="13264"></path></svg>
+                                    </li>
                                 </Link>
                             )}
                         </ul>
