@@ -1,7 +1,7 @@
 import styles from './footer.module.css';
 
 export default function Footer() {
-    return (
+    return (<>
         <footer className={styles.footer}>
             {/* <div className={styles.name}>
                 <strong>亿云</strong>
@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.qrcode}>
                     微信
-                    <img src='/image/QR.jpg' alt='qrcode' className={styles.qr} />
+                    <img src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
                 </div>
 
             </div>
@@ -34,5 +34,22 @@ export default function Footer() {
                 </span>
             </div>
         </footer>
+        <footer className={styles.footer_phone}>
+            <span className={styles.text}>上海亿云 始于2003年</span>
+            <span className={styles.text}>别墅｜豪宅｜高端定制整体解决方案</span>
+            <span className={styles.text}>全品类配套一站式私人订制服务</span>
+            <span className={styles.text}>联系电话：13901839676 梁先生</span>
+            <span className={styles.text}>微信咨询:</span>
+            <div className={styles.row}>
+                <img src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
+            </div>
+            <div className={styles.bottom}>
+                <span>
+                    Copyright © 2023 - 2024 YIYUN. All Rights Reserved. 上海亿云建材 版权所有 <a className={styles.icp} href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2024090209号-1</a>
+                </span>
+            </div>
+
+        </footer>
+    </>
     )
 }

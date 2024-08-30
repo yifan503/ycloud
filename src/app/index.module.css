@@ -6,7 +6,7 @@
     .index_container_phone{
         display: flex;
         flex-direction: column;
-        background-color: #fff;
+        background-color: #000000;
     }
 }
 

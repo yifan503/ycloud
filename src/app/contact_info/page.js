@@ -16,8 +16,8 @@ export default function ContactInfo() {
                             <div className={styles.intro_text}>电话：13901839676 梁先生</div>
                             <div className={styles.intro_text}>微信：</div>
                             <div className={styles.qr_row}>
-                                <img className={styles.qrcode} src='/image/QR.jpg' alt='qrcode' />
-                                <img className={styles.qrcode} src='/image/QR.jpg' alt='qrcode' />
+                                <img className={styles.qrcode} src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+                                <img className={styles.qrcode} src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
                             </div>
                         </div>
 

@@ -85,7 +85,7 @@ export default function Home() {
           page='/cabinet'
         />
         <ImageItem
-          src="http://cdn.yiyunjiancai.com/pages/index/cupboard2.jpg?imageslim"
+          src="http://cdn.yiyunjiancai.com/pages/index/cupboard2_phone.jpg?imageslim"
           alt="moreProduct"
           text="更多案例鉴赏"
           buttonText="点击查看"
