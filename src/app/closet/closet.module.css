@@ -147,15 +147,19 @@
 /* mobile */
 @media screen and (max-width: 600px){
     .title{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        padding-bottom: 1.2rem;
+    }
+    .sub_title{
+        font-size: 1.4rem;
     }
     .intro{
         display: none;
     }
     .intro_phone{
         /* letter-spacing: 2px; */
-        font-size: 1.1rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.6;
     }
     .intro_text{
         display: none;
@@ -174,7 +178,8 @@
         aspect-ratio: 960/960;
     }
     .row{
-        padding: 0 0 1rem 0;
+        display: none;
+        /* padding: 0 0 1rem 0; */
     }
 }
 
@@ -190,4 +195,93 @@
         box-shadow: 0px 0 20px rgba(0,0,0,0.6);
     
     }
+    .slider_container{
+        display: none;
+    }
+}
+
+
+/* 自定义 slick-dots 的样式 */
+.slick_dots
+{
+    position: absolute;
+    bottom: 5px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick_dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick_dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick_dots li button:hover,
+.slick_dots li button:focus
+{
+    outline: none;
+}
+.slick_dots li button:hover:before,
+.slick_dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick_dots li button:before
+{
+    font-family: 'slick';
+    font-size: 8px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick_dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
 }

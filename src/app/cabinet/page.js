@@ -11,6 +11,7 @@ export default function Cabinet() {
                         <h1 className={styles.title}>柜体定制</h1>
                         <p className={styles.intro}>有条不紊、抛却繁杂是所有人都向往的井然有序的生活。</p>
                         <p className={styles.intro}>意式储物柜将传统杂物储藏空间，置于日常生活中更加触手可及的地方管理储物空间秩序。</p>
+                        <p className={styles.intro_phone}>有条不紊、抛却繁杂是所有人都向往的井然有序的生活。意式储物柜将传统杂物储藏空间，置于日常生活中更加触手可及的地方管理储物空间秩序。</p>
                     </div>
                 </div>
                 <div className={styles.intro_text_container}>
@@ -30,6 +31,17 @@ export default function Cabinet() {
                     {/* <img src='/image/cupboard4.jpg' alt='wardrobes' className={styles.img} />
                     <img src='/image/cupboard5.png' alt='wardrobes' className={styles.img} /> */}
                     <div className={styles.anim_cupboard}>
+                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard5.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                    </div>
+                </div>
+                <div className={styles.row_phone}>
+                    <div className={styles.anim_container}>
+                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard3.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                    </div>
+                    <div className={styles.anim_container}>
+                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard4.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                    </div>
+                    <div className={styles.anim_container}>
                         <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard5.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>

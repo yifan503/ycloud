@@ -1,7 +1,23 @@
+'use client'
+
 import Link from "next/link";
 import styles from './closet.module.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 export default function Closet() {
+
+    const settings = {
+        dots: true,
+        dotsClass: styles.slick_dots,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+
     return (
         <>
             <div className={styles.container}>
@@ -35,6 +51,20 @@ export default function Closet() {
 
                     </div>
                     {/* <img src='/image/wardrobes3.jpg' alt='wardrobes' className={styles.img_down} /> */}
+                </div>
+                <div className={styles.slider_container}>
+                    <Slider {...settings}>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/pages/closet/wardrobes2.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/pages/closet/wardrobes3.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/pages/closet/wardrobes.jpg?imageslim' alt='wardrobes' className={styles.img} />
+
+                        </div>
+                    </Slider>
                 </div>
 
             </div>
