@@ -31,6 +31,9 @@ export default function ShowRoom() {
                             <div>
                                 <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p2.JPG?imageslim' alt='showroom' className={styles.img} />
                             </div>
+                            <div>
+                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p3.JPG?imageslim' alt='showroom' className={styles.img} />
+                            </div>
                         </Slider>
                     </div>
 
