@@ -117,14 +117,17 @@ export default function Cabinet() {
                         <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>
-                <Slider {...settings}>
-                    <div className={styles.anim_container}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet5.jpg?imageslim' alt='wardrobes' className={styles.img} />
-                    </div>
-                    <div className={styles.anim_container}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
-                    </div>
-                </Slider>
+                <div className={styles.row_phone}>
+                    <Slider {...settings}>
+                        <div className={styles.anim_container}>
+                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet5.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        </div>
+                        <div className={styles.anim_container}>
+                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        </div>
+                    </Slider>
+                </div>
+
 
             </div>
         </>

@@ -134,3 +134,169 @@
         transform: translateX(0);
     }
 }
+
+/* pc */
+@media screen and (min-width: 601px){
+    .down_arrow{
+        display: none;
+    }
+    .row_phone{
+        display: none;
+    }
+    .intro_phone{
+        display: none;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 600px){
+    .title{
+        font-size: 1.8rem;
+        padding-bottom: 1.2rem;
+    }
+    .intro{
+        display: none;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+    }
+    .title2{
+        padding: 20px 0 20px 10%;
+    }
+    .row{
+        display: none;
+    }
+    .row_phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .anim_container{
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 1rem;
+    }
+    .img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        aspect-ratio: 5/7;
+    }
+    .img_2{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        aspect-ratio: 4/7;
+    }
+    .intro_phone{
+        /* letter-spacing: 2px; */
+        opacity: 0;
+        padding: 0 1rem;
+        font-size: 1rem;
+        line-height: 1.6;
+        animation: fadeInWithMove 1s ease forwards;
+        animation-delay: 400ms;
+    }
+    .down_arrow{
+        position: absolute;
+        opacity: 0;
+        bottom: 10px;
+        animation: fadeInWithMove 1s ease forwards,bounce 1.5s infinite ease-in-out;
+        animation-delay: 600ms;
+    }
+}
+
+@keyframes bounce{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+
+/* 自定义 slick-dots 的样式 */
+.slick_dots
+{
+    position: absolute;
+    bottom: 5px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick_dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick_dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick_dots li button:hover,
+.slick_dots li button:focus
+{
+    outline: none;
+}
+.slick_dots li button:hover:before,
+.slick_dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick_dots li button:before
+{
+    font-family: 'slick';
+    font-size: 8px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick_dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}

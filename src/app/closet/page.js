@@ -30,6 +30,9 @@ export default function Closet() {
                         <p className={styles.intro}>高定衣帽间从居住者的生活中汲取灵感，匹配居住者的高级审美和品味生活需求。</p>
                         <p className={styles.intro_phone}>衣帽间的精致除了科学合理的收纳分区布局外，结构、美感与灯光也是极为重要的成分。高定衣帽间从居住者的生活中汲取灵感，匹配居住者的高级审美和品味生活需求。</p>
                     </div>
+                    <div className={styles.down_arrow}>
+                        <svg t="1725106748909" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32876" width="64" height="64"><path d="M818.7648 330.1888a38.4 38.4 0 0 1 54.8352 53.6064l-2.7648 2.816L512 717.8752 153.1648 386.5856A38.4 38.4 0 0 1 202.2144 327.68l3.0208 2.5344L512 613.3248l306.7648-283.136z" fill="#cdcdcd" p-id="32877"></path></svg>
+                    </div>
                 </div>
                 <div className={styles.intro_text_container}>
                     <h2 className={styles.sub_title}>衣帽间案例精选</h2>

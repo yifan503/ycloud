@@ -38,13 +38,25 @@
     }
 
     .intro{
-        padding: 40px 0 0 40px;
-        opacity: 0;
+        padding: 40px 0 40px 40px;
         color: #393939;
         line-height: 1.5;
         letter-spacing: 1px;
         font-size: 0.8rem;
         /* text-align: center; */
+        /* animation: intro_fade_in 1s ease forwards;
+        animation-delay: 800ms; */
+    }
+    .qr{
+        width: 60px;
+    }
+    .attachment{
+        opacity: 0;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         animation: intro_fade_in 1s ease forwards;
         animation-delay: 800ms;
     }
@@ -121,7 +133,7 @@
 .close{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .close_icon{

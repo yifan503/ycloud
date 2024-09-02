@@ -163,12 +163,18 @@ export default function Navbar() {
                                     </li>
                                 </Link>
                             )}
-                            <div className={styles.intro}>
-                                <li>上海亿云 始于2003年</li>
-                                <li>别墅｜豪宅｜高端定制整体解决方案</li>
-                                <li>全品类配套一站式私人订制服务</li>
-                                {/* <li>联系电话：13901839676 梁先生</li> */}
+                            <div className={styles.attachment}>
+                                <div className={styles.intro}>
+                                    <li>上海亿云 始于2003年</li>
+                                    <li>别墅｜豪宅｜高端定制整体解决方案</li>
+                                    <li>全品类配套一站式私人订制服务</li>
+                                    {/* <li>联系电话：13901839676 梁先生</li> */}
+                                </div>
+                                <img src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
+
                             </div>
+
+
                         </ul>
                     }
                 </div>

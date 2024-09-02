@@ -158,9 +158,12 @@
     }
     .intro_phone{
         /* letter-spacing: 2px; */
+        opacity: 0;
         padding: 0 1rem;
         font-size: 1rem;
         line-height: 1.6;
+        animation: fadeInWithMove 1s ease forwards;
+        animation-delay: 400ms;
     }
     .intro_text{
         display: none;
@@ -182,10 +185,20 @@
         display: none;
         /* padding: 0 0 1rem 0; */
     }
+    .down_arrow{
+        position: absolute;
+        opacity: 0;
+        bottom: 10px;
+        animation: fadeInWithMove 1s ease forwards,bounce 1.5s infinite ease-in-out;
+        animation-delay: 600ms;    
+    }
 }
 
 /* pc */
 @media screen and (min-width: 601px){
+    .down_arrow{
+        display: none;
+    }
     .intro_phone{
         display: none;
     }
@@ -200,7 +213,14 @@
         display: none;
     }
 }
-
+@keyframes bounce{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
 
 /* 自定义 slick-dots 的样式 */
 .slick_dots
