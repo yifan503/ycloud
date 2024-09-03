@@ -4,9 +4,11 @@
 
 .row{
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .head_img{
@@ -147,5 +149,69 @@
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@keyframes bounce{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 600px){
+    .container{
+        padding: 0;
+    }
+    .head_img{
+        display: none;
+    }
+    .intro{
+        display: none;
+    }
+    .flow{
+        display: none;
+    }
+    .subtitle{
+        display: none;
+    }
+    .head_img_phone{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        scale: 1.2;
+        animation: fadeIn 2s ease forwards;
+    }
+    .title_phone{
+        position: absolute;
+        opacity: 0;
+        top: 50%;
+        font-size: 1.8rem;
+        animation: fadeInWithMove 0.5s ease forwards;
+    }
+    .down_arrow{
+        position: absolute;
+        opacity: 0;
+        bottom: 5px;
+        animation: fadeInWithMove 1s ease forwards,bounce 1.5s infinite ease-in-out;
+        animation-delay: 600ms;    
+    }
+}
+
+
+/* pc */
+@media screen and (min-width: 601px){
+    .head_img_phone{
+        display: none;
+    }
+    .title_phone{
+        display: none;
+    }
+    .down_arrow{
+        display: none;
     }
 }

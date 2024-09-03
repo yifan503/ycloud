@@ -7,8 +7,17 @@ export default function ContactInfo() {
     return (
         <>
             <div className={styles.container}>
+
                 <div className={styles.row}>
                     <img src='http://cdn.yiyunjiancai.com/showroom/showroom_table.png?imageslim' alt='table' className={styles.head_img} />
+                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/head_img1.JPG?imageslim' alt='table' className={styles.head_img_phone} />
+
+                    <h1 className={styles.title_phone}>
+                        联系我们
+                    </h1>
+                    <div className={styles.down_arrow}>
+                        <svg t="1725106748909" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="32876" width="64" height="64"><path d="M818.7648 330.1888a38.4 38.4 0 0 1 54.8352 53.6064l-2.7648 2.816L512 717.8752 153.1648 386.5856A38.4 38.4 0 0 1 202.2144 327.68l3.0208 2.5344L512 613.3248l306.7648-283.136z" fill="#cdcdcd" p-id="32877"></path></svg>
+                    </div>
                     <div className={styles.intro}>
                         <div className={styles.intro_content}>
                             <h2 className={styles.intro_title} >联系我们</h2>

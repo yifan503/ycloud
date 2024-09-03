@@ -134,26 +134,21 @@ export default function WholeHouse() {
                 <div className={styles.slider_container}>
                     <Slider {...settings_phone}>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img1.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img2.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail2.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img3.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail3.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img4.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail4.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img5.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail5.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
-                        <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img6.JPG?imageslim' alt='detail' className={styles.img} />
-                        </div>
-                        <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img11.JPG?imageslim' alt='detail' className={styles.img} />
-                        </div>
+
                     </Slider>
                 </div>
                 <h2 className={styles.subtitle2}>板材介绍</h2>

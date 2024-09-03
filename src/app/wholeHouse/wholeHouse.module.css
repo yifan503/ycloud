@@ -257,6 +257,8 @@
         width: 100%;
         object-fit: cover;
         object-position: center;
+        animation: fadeIn 2s ease forwards;
+
         /* aspect-ratio: 10/9; */
     }
     .title_phone{
