@@ -61,6 +61,15 @@ export default function CasesPage() {
         prevArrow: <CustomPrevArrow />
     };
 
+    const settings_phone = {
+        dots: true,
+        dotsClass: styles.slick_dots,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
 
     const [showDetail, setShow] = useState(false)
 
@@ -105,6 +114,57 @@ export default function CasesPage() {
                         </Slider>
                     </div>
                 </div>
+                <div className={styles.slider_container}>
+                    <Slider {...settings_phone}>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img1.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img2.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img3.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img4.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img5.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img6.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img11.JPG?imageslim' alt='detail' className={styles.img} />
+                        </div>
+                    </Slider>
+                </div>
+                <div className={styles.slider_container}>
+                    <Slider {...settings_phone}>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img7.JPG?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img8.JPG?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img9.JPG?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img10.JPG?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img12.jpg?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img13.jpg?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                        <div className={styles.img_box}>
+                            <img src='http://cdn.yiyunjiancai.com/cases/img14.jpg?imageslim' alt='detail' className={styles.img2} />
+                        </div>
+                    </Slider>
+                </div>
+
                 {/* <div className={styles.galleryContainer}>
                 <TypeImage cb={handleclick} src='/image/qxhy_gate.JPG' title='清溪花园别墅299号' year='2012' project='全屋定制、橱柜、木饰面' />
                 <TypeImage cb={handleclick} src='/image/cupboard.png' title='玫瑰园别墅' year='2013' project='全屋定制' />
