@@ -20,7 +20,7 @@ const MENUITEM_PHONE = [
     '全屋定制',
     '案例欣赏',
     '联系我们',
-    '线下展厅'
+    // '线下展厅'
 ]
 
 const MENUHREF = [
@@ -38,7 +38,7 @@ const MENUHREF_PHONE = [
     '/wholeHouse',
     '/cases',
     '/contact_info',
-    '/showroom'
+    // '/showroom'
 ]
 
 export default function Navbar() {

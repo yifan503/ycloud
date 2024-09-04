@@ -204,6 +204,7 @@
     }
     .intro_phone{
         padding: 1rem;
+        letter-spacing: 1px;
     }
     .intro_text{
         line-height: 1.6;
@@ -216,12 +217,24 @@
     .intro_text_p{
         line-height: 1.6;
         font-size: 0.8rem;
-        padding: 0;
+        padding: 0 1rem 2rem;
         text-indent: 1.6rem;
     }
     .qrcode{
         width: 100px;
         padding: 0 0 0 60px;
+    }
+    .img_box{
+        box-sizing: border-box;
+    }
+    .img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        aspect-ratio: 10/7;
+    }
+    .h2{
+        margin: 2rem 0;
     }
 }
 
@@ -240,4 +253,90 @@
     .intro_phone{
         display: none;
     }
+}
+
+
+/* 自定义 slick-dots 的样式 */
+.slick_dots
+{
+    position: absolute;
+    bottom: 5px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick_dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick_dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick_dots li button:hover,
+.slick_dots li button:focus
+{
+    outline: none;
+}
+.slick_dots li button:hover:before,
+.slick_dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick_dots li button:before
+{
+    font-family: 'slick';
+    font-size: 8px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick_dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
 }
