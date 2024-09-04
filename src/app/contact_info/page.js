@@ -32,6 +32,16 @@ export default function ContactInfo() {
 
                     </div>
                 </div>
+                <div className={styles.intro_phone}>
+                    <h2>品牌创立</h2>
+                    <p className={styles.intro_text_p}>亿云高级定制，自2003年成立，专注于提供卓越的全屋定制解决方案，包括衣柜、橱柜、书柜等，精选进口及国产高级板材，融合传统工艺与现代设计。我们致力于以个性化服务和精湛工艺，为您打造既实用又具有美学价值的家居空间，让您的生活空间焕发独特魅力。</p>
+                    <h2>联系方式</h2>
+                    <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居4楼D8025</div>
+                    <div className={styles.intro_text}>电话：13901839676 梁先生</div>
+                    <div className={styles.intro_text}>微信：</div>
+                    <img className={styles.qrcode} src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+
+                </div>
                 <div className={styles.subtitle}>
                     <h2>定制流程</h2>
                 </div>

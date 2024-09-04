@@ -8,7 +8,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .head_img{
@@ -169,6 +168,9 @@
     .head_img{
         display: none;
     }
+    .row{
+        overflow: hidden;
+    }
     .intro{
         display: none;
     }
@@ -200,6 +202,27 @@
         animation: fadeInWithMove 1s ease forwards,bounce 1.5s infinite ease-in-out;
         animation-delay: 600ms;    
     }
+    .intro_phone{
+        padding: 1rem;
+    }
+    .intro_text{
+        line-height: 1.6;
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    .intro_text + .intro_text{
+        padding-top: 10px;
+    }
+    .intro_text_p{
+        line-height: 1.6;
+        font-size: 0.8rem;
+        padding: 0;
+        text-indent: 1.6rem;
+    }
+    .qrcode{
+        width: 100px;
+        padding: 0 0 0 60px;
+    }
 }
 
 
@@ -212,6 +235,9 @@
         display: none;
     }
     .down_arrow{
+        display: none;
+    }
+    .intro_phone{
         display: none;
     }
 }
