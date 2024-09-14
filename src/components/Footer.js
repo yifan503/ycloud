@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.qrcode}>
                     微信
-                    <img src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
+                    <img src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
                 </div>
 
             </div>
@@ -41,7 +41,7 @@ export default function Footer() {
             <span className={styles.text}>联系电话：13901839676 梁先生</span> */}
             {/* <span className={styles.text}>微信咨询:</span>
             <div className={styles.row}>
-                <img src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
+                <img src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
             </div> */}
             <div className={styles.bottom}>
                 <span>

@@ -170,7 +170,7 @@ export default function Navbar() {
                                     <li>全品类配套一站式私人订制服务</li>
                                     {/* <li>联系电话：13901839676 梁先生</li> */}
                                 </div>
-                                <img src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
+                                <img src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' className={styles.qr} />
 
                             </div>
 
