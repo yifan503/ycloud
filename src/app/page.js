@@ -1,10 +1,18 @@
 'use client'
 
+import { useEffect } from 'react';
 import ImageItem from '../components/ImageItem'
 import ReactFullpage from '@fullpage/react-fullpage';
 import styles from './index.module.css';
 
 export default function Home() {
+
+  useEffect(() => {
+    const hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?9b109b72cec97c5e21f0c4ff332da86b";
+    const s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  }, []);
 
   const Fullpage = () => (
     <ReactFullpage
