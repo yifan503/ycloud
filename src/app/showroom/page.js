@@ -26,13 +26,13 @@ export default function ShowRoom() {
                     <div className={styles.slide_container} >
                         <Slider {...settings}>
                             <div >
-                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p.JPG?imageslim' alt='showroom' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/showroom/showroom_p.JPG?imageslim' alt='showroom' className={styles.img} />
                             </div>
                             <div>
-                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p2.JPG?imageslim' alt='showroom' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/showroom/showroom_p2.JPG?imageslim' alt='showroom' className={styles.img} />
                             </div>
                             <div>
-                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p3.JPG?imageslim' alt='showroom' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/showroom/showroom_p3.JPG?imageslim' alt='showroom' className={styles.img} />
                             </div>
                         </Slider>
                     </div>

@@ -91,76 +91,76 @@ export default function CasesPage() {
                 <div className={styles.row}>
                     <div className={styles.slide_container}>
                         <Slider {...settings}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img1.JPG?imageslim' alt='detail' className={styles.img} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img2.JPG?imageslim' alt='detail' className={styles.img} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img3.JPG?imageslim' alt='detail' className={styles.img} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img4.JPG?imageslim' alt='detail' className={styles.img} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img5.JPG?imageslim' alt='detail' className={styles.img} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img6.JPG?imageslim' alt='detail' className={styles.img} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img11.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img1.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img2.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img3.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img4.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img5.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img6.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img11.JPG?imageslim' alt='detail' className={styles.img} />
                         </Slider>
                     </div>
                 </div>
                 <div className={styles.row}>
                     <div className={styles.slide_container}>
                         <Slider {...settings2}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img7.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img8.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img9.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img10.JPG?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img12.jpg?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img13.jpg?imageslim' alt='detail' className={styles.img2} />
-                            <img src='http://cdn.yiyunjiancai.com/cases/img14.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img7.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img8.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img9.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img10.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img12.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img13.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img14.jpg?imageslim' alt='detail' className={styles.img2} />
                         </Slider>
                     </div>
                 </div>
                 <div className={styles.slider_container}>
                     <Slider {...settings_phone}>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img1.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img1.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img2.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img2.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img3.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img3.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img4.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img4.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img5.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img5.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img6.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img6.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img11.JPG?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img11.JPG?imageslim' alt='detail' className={styles.img} />
                         </div>
                     </Slider>
                 </div>
                 <div className={styles.slider_container}>
                     <Slider {...settings_phone}>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img7.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img7.JPG?imageslim' alt='detail' className={styles.img2} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img8.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img8.JPG?imageslim' alt='detail' className={styles.img2} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img9.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img9.JPG?imageslim' alt='detail' className={styles.img2} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img10.JPG?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img10.JPG?imageslim' alt='detail' className={styles.img2} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img12.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img12.jpg?imageslim' alt='detail' className={styles.img2} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img13.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img13.jpg?imageslim' alt='detail' className={styles.img2} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/cases/img14.jpg?imageslim' alt='detail' className={styles.img2} />
+                            <img src='https://cdn.yiyunjiancai.com/cases/img14.jpg?imageslim' alt='detail' className={styles.img2} />
                         </div>
                     </Slider>
                 </div>

@@ -22,8 +22,8 @@ export default function ContactInfo() {
             <div className={styles.container}>
 
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/showroom/showroom_table.png?imageslim' alt='table' className={styles.head_img} />
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/head_img1.JPG?imageslim' alt='table' className={styles.head_img_phone} />
+                    <img src='https://cdn.yiyunjiancai.com/showroom/showroom_table.png?imageslim' alt='table' className={styles.head_img} />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/head_img1.JPG?imageslim' alt='table' className={styles.head_img_phone} />
 
                     <h1 className={styles.title_phone}>
                         联系我们
@@ -38,8 +38,8 @@ export default function ContactInfo() {
                             <div className={styles.intro_text}>电话：13901839676 梁先生</div>
                             <div className={styles.intro_text}>微信：</div>
                             <div className={styles.qr_row}>
-                                <img className={styles.qrcode} src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
-                                <img className={styles.qrcode} src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+                                <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+                                <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
                             </div>
                         </div>
 
@@ -50,18 +50,18 @@ export default function ContactInfo() {
                     <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居4楼D8025</div>
                     <div className={styles.intro_text}>电话：13901839676 梁先生</div>
                     <div className={styles.intro_text}>微信：</div>
-                    <img className={styles.qrcode} src='http://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+                    <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
                     <h2 className={styles.h2}>线下展厅</h2>
                     <div className={styles.slider_container}>
                         <Slider {...settings}>
                             <div className={styles.img_box}>
-                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p.JPG?imageslim' alt='showroom' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/showroom/showroom_p.JPG?imageslim' alt='showroom' className={styles.img} />
                             </div>
                             <div className={styles.img_box}>
-                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p2.JPG?imageslim' alt='showroom' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/showroom/showroom_p2.JPG?imageslim' alt='showroom' className={styles.img} />
                             </div>
                             <div className={styles.img_box}>
-                                <img src='http://cdn.yiyunjiancai.com/showroom/showroom_p3.JPG?imageslim' alt='showroom' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/showroom/showroom_p3.JPG?imageslim' alt='showroom' className={styles.img} />
 
                             </div>
                         </Slider>
@@ -75,37 +75,37 @@ export default function ContactInfo() {
                 </div>
                 <div className={styles.flow}>
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/designer.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/designer.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >设计师对接</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/price.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/price.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >确定方案及报价</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
                         <span className={styles.icon_text} >首付款支付</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/factory.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/factory.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >工厂下单生产</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
                         <span className={styles.icon_text} >支付尾款</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/truck.png?imageslim' alt='img' className={styles.icon_need_down} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/truck.png?imageslim' alt='img' className={styles.icon_need_down} />
                         <span className={styles.icon_text} >送货上门安装</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/after.png?imageslim' alt='img' className={styles.icon_need_down} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/after.png?imageslim' alt='img' className={styles.icon_need_down} />
                         <span className={styles.icon_text} >售后养护</span>
                     </div>
                 </div>

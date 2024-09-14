@@ -26,7 +26,7 @@ export default function Home() {
           <ReactFullpage.Wrapper>
             <div className="section">
               <ImageItem
-                src="http://cdn.yiyunjiancai.com/pages/index/cabinet.jpg?imageslim"
+                src="https://cdn.yiyunjiancai.com/pages/index/cabinet.jpg?imageslim"
                 alt="cabinet"
                 text="定制柜系列"
                 buttonText="即刻探索"
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="http://cdn.yiyunjiancai.com/pages/index/closet.jpg?imageslim"
+                src="https://cdn.yiyunjiancai.com/pages/index/closet.jpg?imageslim"
                 alt="cloakroom"
                 text="步入式衣帽间方案"
                 buttonText="即刻探索"
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="http://cdn.yiyunjiancai.com/pages/index/cabinet2.jpg?imageslim"
+                src="https://cdn.yiyunjiancai.com/pages/index/cabinet2.jpg?imageslim"
                 alt="cupboard"
                 text="卫浴柜定制案例"
                 buttonText="查看更多"
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className="section">
               <ImageItem
-                src="http://cdn.yiyunjiancai.com/pages/index/cupboard2.jpg?imageslim"
+                src="https://cdn.yiyunjiancai.com/pages/index/cupboard2.jpg?imageslim"
                 alt="moreProduct"
                 text="更多案例鉴赏"
                 buttonText="点击查看"
@@ -72,28 +72,28 @@ export default function Home() {
       </div>
       <div className={styles.index_container_phone}>
         <ImageItem
-          src="http://cdn.yiyunjiancai.com/pages/index/cabinet.jpg?imageslim"
+          src="https://cdn.yiyunjiancai.com/pages/index/cabinet.jpg?imageslim"
           alt="cabinet"
           text="定制柜系列"
           buttonText="即刻探索"
           page='/cabinet'
         />
         <ImageItem
-          src="http://cdn.yiyunjiancai.com/pages/index/closet.jpg?imageslim"
+          src="https://cdn.yiyunjiancai.com/pages/index/closet.jpg?imageslim"
           alt="cloakroom"
           text="步入式衣帽间方案"
           buttonText="即刻探索"
           page='/closet'
         />
         <ImageItem
-          src="http://cdn.yiyunjiancai.com/pages/index/cabinet2.jpg?imageslim"
+          src="https://cdn.yiyunjiancai.com/pages/index/cabinet2.jpg?imageslim"
           alt="cupboard"
           text="卫浴柜定制案例"
           buttonText="查看更多"
           page='/cabinet'
         />
         <ImageItem
-          src="http://cdn.yiyunjiancai.com/pages/index/cupboard2_phone.jpg?imageslim"
+          src="https://cdn.yiyunjiancai.com/pages/index/cupboard2_phone.jpg?imageslim"
           alt="moreProduct"
           text="更多案例鉴赏"
           buttonText="点击查看"

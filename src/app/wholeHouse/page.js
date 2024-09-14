@@ -55,8 +55,8 @@ export default function WholeHouse() {
         <>
             <div className={styles.container}>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/wholehouse.jpg?imageslim' className={styles.head_img} alt='wholehouse' />
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/head_img2.JPG?imageslim' className={styles.head_img_phone} alt='wholehouse' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/wholehouse.jpg?imageslim' className={styles.head_img} alt='wholehouse' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/head_img2.JPG?imageslim' className={styles.head_img_phone} alt='wholehouse' />
                     <h1 className={styles.title_phone}>
                         全屋定制
                     </h1>
@@ -71,39 +71,39 @@ export default function WholeHouse() {
                 <h2 className={styles.subtitle_phone}>定制流程</h2>
                 <div className={styles.flow_phone}>
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/designer.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/designer.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >设计师对接</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/price.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/price.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >确定方案及报价</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
                         <span className={styles.icon_text} >首付款支付</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/factory.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/factory.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >工厂下单生产</span>
                     </div>
                 </div>
                 <div className={styles.flow_phone}>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
                         <span className={styles.icon_text} >支付尾款</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/truck.png?imageslim' alt='img' className={styles.icon_need_down} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/truck.png?imageslim' alt='img' className={styles.icon_need_down} />
                         <span className={styles.icon_text} >送货上门安装</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/after.png?imageslim' alt='img' className={styles.icon_need_down} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/after.png?imageslim' alt='img' className={styles.icon_need_down} />
                         <span className={styles.icon_text} >售后养护</span>
                     </div>
                 </div>
@@ -113,19 +113,19 @@ export default function WholeHouse() {
 
                         <Slider {...settings}>
                             <div >
-                                <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail.jpg?imageslim' alt='detail' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail.jpg?imageslim' alt='detail' className={styles.img} />
                             </div>
                             <div>
-                                <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail2.jpg?imageslim' alt='detail' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail2.jpg?imageslim' alt='detail' className={styles.img} />
                             </div>
                             <div>
-                                <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail3.jpg?imageslim' alt='detail' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail3.jpg?imageslim' alt='detail' className={styles.img} />
                             </div>
                             <div>
-                                <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail4.jpg?imageslim' alt='detail' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail4.jpg?imageslim' alt='detail' className={styles.img} />
                             </div>
                             <div>
-                                <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail5.jpg?imageslim' alt='detail' className={styles.img} />
+                                <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail5.jpg?imageslim' alt='detail' className={styles.img} />
                             </div>
                         </Slider>
                     </div>
@@ -134,19 +134,19 @@ export default function WholeHouse() {
                 <div className={styles.slider_container}>
                     <Slider {...settings_phone}>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail.jpg?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail2.jpg?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail2.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail3.jpg?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail3.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail4.jpg?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail4.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
                         <div className={styles.img_box}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/product_detail5.jpg?imageslim' alt='detail' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/product_detail5.jpg?imageslim' alt='detail' className={styles.img} />
                         </div>
 
                     </Slider>
@@ -154,61 +154,61 @@ export default function WholeHouse() {
                 <h2 className={styles.subtitle2}>板材介绍</h2>
                 <p className={styles.intro}>进口板材选择：意大利可丽芙(CLEAF)、意大利Tabu木皮、 德国丽特曼、德国科尔木皮、德国克诺斯邦、比利时UNILIN、奥地利爱格等</p>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/board.png?imageslim' className={styles.board} alt='board' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/board.png?imageslim' className={styles.board} alt='board' />
                 </div>
                 <p className={styles.intro}>国产合作品牌：瑞格森工、金米龙等高端板材（ENF级环保等级）</p>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/board_cn.png?imageslim' className={styles.board_cn} alt='board' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/board_cn.png?imageslim' className={styles.board_cn} alt='board' />
                 </div>
                 <h2 className={styles.subtitle_phone}>板材介绍</h2>
                 <p className={styles.intro_phone}>进口板材：意大利可丽芙(CLEAF)、意大利Tabu木皮、 德国丽特曼、德国科尔木皮、德国克诺斯邦、比利时UNILIN、奥地利爱格等</p>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/board_mobile.png?imageslim' className={styles.board_mobile} alt='board' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/board_mobile.png?imageslim' className={styles.board_mobile} alt='board' />
                 </div>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/board_mobile2.png?imageslim' className={styles.board_mobile2} alt='board' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/board_mobile2.png?imageslim' className={styles.board_mobile2} alt='board' />
                 </div>
                 <p className={styles.intro_phone}>国产合作品牌：瑞格森工、金米龙等高端板材（ENF级环保等级）</p>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/board_cn_mobile.png?imageslim' className={styles.board_mobile} alt='board' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/board_cn_mobile.png?imageslim' className={styles.board_mobile} alt='board' />
                 </div>
                 <div className={styles.row}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/wholehouse/board_cn_mobile2.png?imageslim' className={styles.board_mobile2} alt='board' />
+                    <img src='https://cdn.yiyunjiancai.com/pages/wholehouse/board_cn_mobile2.png?imageslim' className={styles.board_mobile2} alt='board' />
                 </div>
                 <h2 className={styles.subtitle2}>定制流程</h2>
                 <div className={styles.flow}>
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/designer.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/designer.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >设计师对接</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/price.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/price.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >确定方案及报价</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
                         <span className={styles.icon_text} >首付款支付</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/factory.png?imageslim' alt='img' className={styles.icon} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/factory.png?imageslim' alt='img' className={styles.icon} />
                         <span className={styles.icon_text} >工厂下单生产</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/money.png?imageslim' alt='img' className={styles.money} />
                         <span className={styles.icon_text} >支付尾款</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/truck.png?imageslim' alt='img' className={styles.icon_need_down} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/truck.png?imageslim' alt='img' className={styles.icon_need_down} />
                         <span className={styles.icon_text} >送货上门安装</span>
                     </div>
-                    <img src='http://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
+                    <img src='https://cdn.yiyunjiancai.com/icons/arrow.png?imageslim' alt='arrow' className={styles.arrow} />
                     <div className={styles.unit}>
-                        <img src='http://cdn.yiyunjiancai.com/icons/after.png?imageslim' alt='img' className={styles.icon_need_down} />
+                        <img src='https://cdn.yiyunjiancai.com/icons/after.png?imageslim' alt='img' className={styles.icon_need_down} />
                         <span className={styles.icon_text} >售后养护</span>
                     </div>
                 </div>

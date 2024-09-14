@@ -23,7 +23,7 @@ export default function Cabinet() {
         <>
             <div className={styles.container}>
                 <div className={styles.img_container}>
-                    <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet_detail.jpg?imageslim' alt='cabinet' className={styles.head_img} />
+                    <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet_detail.jpg?imageslim' alt='cabinet' className={styles.head_img} />
                     <div className={styles.overlay}>
                         <h1 className={styles.title}>柜体定制</h1>
                         <p className={styles.intro}>有条不紊、抛却繁杂是所有人都向往的井然有序的生活。</p>
@@ -40,10 +40,10 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.anim_container}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard3.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cupboard3.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_container_2}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard4.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cupboard4.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                     {/* <div className={styles.anim_container}>
                         <img src='/image/cabinet4.jpg' alt='wardrobes' className={styles.img} />
@@ -51,19 +51,19 @@ export default function Cabinet() {
                     {/* <img src='/image/cupboard4.jpg' alt='wardrobes' className={styles.img} />
                     <img src='/image/cupboard5.png' alt='wardrobes' className={styles.img} /> */}
                     <div className={styles.anim_cupboard}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard5.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cupboard5.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>
                 <div className={styles.row_phone}>
                     <Slider {...settings}>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard3.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cupboard3.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard4.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cupboard4.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cupboard5.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cupboard5.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                     </Slider>
                 </div>
@@ -74,34 +74,34 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.anim_gradevin}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet3.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet3.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_gradevin}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet4.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet4.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
 
                 </div>
                 <div className={styles.row}>
                     <div className={styles.anim_gradevin}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/gradevin.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/gradevin.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_gradevin}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/gradevin2.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/gradevin2.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>
                 <div className={styles.row_phone}>
                     <Slider {...settings}>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet3.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet3.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet4.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet4.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/gradevin.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/gradevin.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/gradevin2.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/gradevin2.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                     </Slider>
                 </div>
@@ -111,19 +111,19 @@ export default function Cabinet() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.anim_gradevin}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet5.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet5.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                     <div className={styles.anim_gradevin}>
-                        <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                        <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
                     </div>
                 </div>
                 <div className={styles.row_phone}>
                     <Slider {...settings}>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet5.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet5.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                         <div className={styles.anim_container}>
-                            <img src='http://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
+                            <img src='https://cdn.yiyunjiancai.com/pages/cabinet/cabinet6.jpg?imageslim' alt='wardrobes' className={styles.img} />
                         </div>
                     </Slider>
                 </div>
