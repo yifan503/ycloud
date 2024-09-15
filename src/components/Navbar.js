@@ -85,6 +85,7 @@ export default function Navbar() {
     return (
         <>
             <nav className={styles.navBar} id="navbar">
+                <span className={styles.desc}>亿云高级定制，始于2003年，专注于提供卓越的全屋定制解决方案，包括衣柜、橱柜、书柜等，精选进口及国产高级板材，融合传统工艺与现代设计。致力于以个性化服务和精湛工艺，为您打造既实用又具有美学价值的家居空间，让您的生活空间焕发独特魅力。</span>
                 <div className={styles.left_content}>
                     <div className={styles.left_text} style={{
                         display: 'flex',

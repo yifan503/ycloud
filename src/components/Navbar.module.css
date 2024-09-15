@@ -11,6 +11,10 @@
     transition: background-color 0.5s ease;
 }
 
+.desc{
+    display: none;
+}
+
 @media screen and (max-width: 600px){
     .navBar{
         display: none;
