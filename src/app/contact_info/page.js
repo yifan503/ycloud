@@ -47,7 +47,7 @@ export default function ContactInfo() {
                 </div>
                 <div className={styles.intro_phone}>
                     <h2 className={styles.h2}>联系方式</h2>
-                    <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居4楼D8025</div>
+                    <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居6楼6N11</div>
                     <div className={styles.intro_text}>电话：13901839676 梁先生</div>
                     <div className={styles.intro_text}>微信/小红书：</div>
                     <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
