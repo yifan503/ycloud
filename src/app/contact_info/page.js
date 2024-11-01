@@ -34,12 +34,12 @@ export default function ContactInfo() {
                     <div className={styles.intro}>
                         <div className={styles.intro_content}>
                             <h2 className={styles.intro_title} >联系我们</h2>
-                            <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居4楼D8025</div>
+                            <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居6楼6N11</div>
                             <div className={styles.intro_text}>电话：13901839676 梁先生</div>
-                            <div className={styles.intro_text}>微信：</div>
+                            <div className={styles.intro_text}>微信/小红书：</div>
                             <div className={styles.qr_row}>
                                 <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
-                                <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+                                <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/xhs_qr_code?imageslim' alt='qrcode' />
                             </div>
                         </div>
 
@@ -49,8 +49,9 @@ export default function ContactInfo() {
                     <h2 className={styles.h2}>联系方式</h2>
                     <div className={styles.intro_text}>地址：上海市闵行区吴中路1388号红星欧丽环球家居4楼D8025</div>
                     <div className={styles.intro_text}>电话：13901839676 梁先生</div>
-                    <div className={styles.intro_text}>微信：</div>
+                    <div className={styles.intro_text}>微信/小红书：</div>
                     <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/qr_code.jpg?imageslim' alt='qrcode' />
+                    <img className={styles.qrcode} src='https://cdn.yiyunjiancai.com/xhs_qr_code?imageslim' alt='qrcode' />
                     <h2 className={styles.h2}>线下展厅</h2>
                     <div className={styles.slider_container}>
                         <Slider {...settings}>

@@ -11,16 +11,16 @@
     transition: background-color 0.5s ease;
 }
 
-.desc{
+.desc {
     display: none;
 }
 
-@media screen and (max-width: 600px){
-    .navBar{
+@media screen and (max-width: 600px) {
+    .navBar {
         display: none;
     }
 
-    .navBar_phone{
+    .navBar_phone {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -31,17 +31,18 @@
         z-index: 1000;
     }
 
-    .title_phone{
+    .title_phone {
         opacity: 0.8;
         padding-left: 30px;
         font-size: 28px;
     }
-    .icon{
+
+    .icon {
         /* opacity: 0.8; */
         padding-right: 20px;
     }
 
-    .intro{
+    .intro {
         padding: 80px 0 80px 40px;
         color: #393939;
         line-height: 1.5;
@@ -51,10 +52,12 @@
         /* animation: intro_fade_in 1s ease forwards;
         animation-delay: 800ms; */
     }
-    .qr{
+
+    .qr {
         width: 60px;
     }
-    .attachment{
+
+    .attachment {
         opacity: 0;
         padding-right: 30px;
         display: flex;
@@ -66,8 +69,8 @@
     }
 }
 
-@media screen and (min-width: 601px){
-    .navBar_phone{
+@media screen and (min-width: 601px) {
+    .navBar_phone {
         display: none;
     }
 }
@@ -77,11 +80,19 @@
 }
 
 .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     /* margin: 0 auto; */
     flex: 1;
-    text-align: center;
+    /* text-align: center; */
     user-select: none;
 
+}
+
+.logo_title {
+    display: flex;
+    flex-direction: column;
 }
 
 .left_content {
@@ -100,6 +111,12 @@
     align-items: center;
     gap: 1.5rem;
     margin-right: 2.5rem;
+}
+
+.logo {
+    width: 90px;
+    object-fit: contain;
+    padding-right: 10px;
 }
 
 .title_text {
@@ -130,22 +147,22 @@
     /* 添加更多悬停状态的样式 */
 }
 
-.custom_link2{
+.custom_link2 {
     text-decoration: none;
 }
 
-.close{
+.close {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.close_icon{
+.close_icon {
     transition: all 0.5s ease;
     margin: 20px 20px 30px 0;
 }
 
-.close_icon:hover{
+.close_icon:hover {
     cursor: pointer;
     transform: scale(0.9);
 }
@@ -163,11 +180,12 @@
     list-style-type: none;
 
 }
-.sidebar:hover{
+
+.sidebar:hover {
     cursor: auto;
 }
 
-.sidebar_phone{
+.sidebar_phone {
     position: fixed;
     top: 0;
     left: 0;
@@ -181,7 +199,7 @@
     animation: sideBarDropDown_phone 0.6s ease forwards;
 }
 
-.sidebarItem_phone{
+.sidebarItem_phone {
     animation: fadeIn_phone 0.5s ease forwards;
     animation-delay: var(--fade-delay);
     opacity: 0;
@@ -211,16 +229,16 @@
     font-size: 22px;
     text-decoration: none;
 
-    
+
 }
 
-.sidebarItem:hover{
+.sidebarItem:hover {
     background-color: rgba(0, 0, 0, 0.1);
     font-size: 28px;
 }
 
-.back{
-    position:fixed;
+.back {
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -230,7 +248,7 @@
     z-index: 1500;
 }
 
-.back:hover{
+.back:hover {
     cursor: auto;
 }
 
@@ -256,7 +274,7 @@
     }
 }
 
-@keyframes fadeIn_phone{
+@keyframes fadeIn_phone {
     from {
         opacity: 0;
         transform: translateX(-30px);
@@ -278,11 +296,12 @@
     }
 }
 
-@keyframes intro_fade_in{
-    from{
+@keyframes intro_fade_in {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
